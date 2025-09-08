@@ -1,0 +1,82 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text font-family="Arial, sans-serif" padding="0" />
+      <mj-button font-family="Arial, sans-serif" padding="0" inner-padding="10px 16px" border-radius="4px" />
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+      <mj-image padding="0" />
+    </mj-attributes>
+    <mj-style>
+      /* ajusta colores por si usas fondo oscuro */
+      .muted { color:#C7CAD4; }
+      .accent { color:#41F27C; }
+    </mj-style>
+  </mj-head>
+
+  <mj-body width="600px" background-color="#FCFAF5">
+
+    <!-- margen exterior -->
+    <mj-section padding="32px 30px">
+      <!-- TARJETA -->
+      <mj-column
+        background-color="#1A1536"
+        background-url="https://via.placeholder.com/1200x600.png?text=bg+gradient+%2B+grid"
+        background-size="cover"
+        background-repeat="no-repeat"
+        border-radius="8px"
+        padding="32px"
+      >
+
+        <!-- meta: Upcoming | icono + fecha -->
+        <mj-table cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+            <td class="muted" style="font-size:16px; line-height:24px; padding:0; white-space:nowrap;">
+              Upcoming Webinar
+            </td>
+            <td class="muted" style="padding:0 12px; font-size:16px; line-height:24px;">|</td>
+            <td class="muted" style="font-size:16px; line-height:24px; padding:0;">
+              <img src="https://lp.netwrix.com/rs/130-MAN-089/images/calendar.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
+              July 10, 4pm ET
+            </td>
+          </tr>
+        </mj-table>
+
+        <!-- título -->
+        <mj-text color="#FFFFFF" font-size="28px" line-height="120%" font-weight="600" padding="16px 0 24px 0">
+          Navigating Compliance Complexities with Modern IAM Solutions
+        </mj-text>
+
+        <!-- Speakers (label) -->
+        <mj-text css-class="accent" font-size="14px" font-weight="700" padding="0 0 8px 0">
+          Speakers
+        </mj-text>
+
+        <!-- Speakers (dos columnas) -->
+        <mj-group>
+          <mj-column>
+            <mj-text color="#FFFFFF" font-size="20px" font-weight="600" line-height="120%">Jane Doe</mj-text>
+            <mj-text class="muted" font-size="14px" line-height="150%">Company Name</mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-text color="#FFFFFF" font-size="20px" font-weight="600" line-height="120%">Jane Doe</mj-text>
+            <mj-text class="muted" font-size="14px" line-height="150%">Company Name</mj-text>
+          </mj-column>
+        </mj-group>
+
+        <!-- botón outline -->
+        <mj-button
+          background-color="transparent"
+          color="#FFFFFF"
+          border="1px solid #FFFFFF"
+          align="left"
+          href="https://example.com"
+          padding="24px 0 0 0"
+        >
+          Topic Name
+        </mj-button>
+
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

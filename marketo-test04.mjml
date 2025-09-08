@@ -1,0 +1,68 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" />
+      <mj-text font-size="16px" line-height="1.6" color="#111827" />
+      <mj-section padding="0px" />
+      <mj-column padding="0px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#f3f5f7">
+    <!-- Hero -->
+    <mj-section background-color="#0f172a" padding="36px 32px 28px 32px">
+      <mj-column>
+        <mj-text color="#ffffff" font-size="24px" font-weight="700">
+          Soy un título
+        </mj-text>
+        <mj-text color="#e5e7eb" font-size="15px">
+          Soy un hero con texto blablabla
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Intro -->
+    <mj-section background-color="#ffffff" padding="24px 32px 8px 32px">
+      <mj-column>
+        <mj-text>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet eros ac elit porta, in pretium arcu fermentum. Nam justo arcu, rutrum quis scelerisque nec, eleifend a lacus. Etiam orci leo, vehicula ullamcorper rutrum vitae, aliquam id lacus. Etiam nec nisi erat. In placerat mi ut turpis mollis, ac eleifend erat aliquam.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Two columns -->
+    <mj-section background-color="#ffffff" padding="16px">
+      <mj-column>
+        <mj-image src="https://via.placeholder.com/280x160.png?text=Columna+1" alt="Columna 1" />
+        <mj-text font-weight="700">Columna 1</mj-text>
+        <mj-text font-size="14px" color="#374151">
+          Texto de la columna 1.
+        </mj-text>
+        <mj-button background-color="#2563eb" color="#ffffff" href="https://example.com">
+          Botón 1
+        </mj-button>
+      </mj-column>
+
+      <mj-column>
+        <mj-image src="https://via.placeholder.com/280x160.png?text=Columna+2" alt="Columna 2" />
+        <mj-text font-weight="700">Columna 2</mj-text>
+        <mj-text font-size="14px" color="#374151">
+          Texto de la columna 2.
+        </mj-text>
+        <mj-button background-color="#111827" border-radius="80px" color="#ffffff" href="https://example.com">
+          Botón 2
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#ffffff" padding="20px 24px 28px 24px">
+      <mj-column>
+        <mj-text font-size="12px" color="#6b7280" align="center">
+          © 2025 blabla
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

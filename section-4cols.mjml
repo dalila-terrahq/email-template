@@ -1,0 +1,70 @@
+<mj-section background-color="#FCFAF5" padding="32px 30px">
+  <mj-column background-color="#FFFFFF" padding="0" border-radius="8px">
+    <mj-style>
+      /* estilos solo para este bloque */
+      .list td { vertical-align: top; }
+      .list .title { font-weight:700; color:#111827; font-size:16px; line-height:1.3; }
+      .list .desc  { color:#4D4D4D; font-size:14px; line-height:1.6; }
+      .list .dot   { display:inline-block; width:10px; height:10px; border-radius:2px; }
+      .list .arrow { font-size:18px; line-height:18px; text-align:right; color:#111827; }
+      /* separador entre filas */
+      .list .sep td { height:1px; line-height:1px; font-size:0; border-top:1px solid #E5E7EB; }
+      /* móvil: apila título+texto y deja la flecha al final de línea */
+      @media only screen and (max-width:480px){
+        .list .title, .list .desc { display:block; width:100% !important; }
+        .list .arrow { width:24px !important; }
+      }
+    </mj-style>
+
+    <mj-table css-class="list" cellpadding="0" cellspacing="0" width="100%">
+      <!-- ITEM 1 -->
+      <tr class="item">
+        <!-- dot -->
+        <td width="24" style="padding:16px;">
+          <span class="dot" style="background:#22C55E;"></span>
+        </td>
+        <!-- título -->
+        <td width="220" class="title" style="padding:16px 16px 16px 0;">
+          Data Security Posture Management
+        </td>
+        <!-- descripción -->
+        <td class="desc" style="padding:16px 0;">
+          Find and protect sensitive data, track user activity, and shut down risky behavior before it becomes a breach.
+        </td>
+        <!-- flecha -->
+        <td width="32" class="arrow" style="padding:16px;">&rarr;</td>
+      </tr>
+      <tr class="sep"><td colspan="4">&nbsp;</td></tr>
+
+      <!-- ITEM 2 -->
+      <tr class="item">
+        <td width="24" style="padding:16px;">
+          <span class="dot" style="background:#7C3AED;"></span>
+        </td>
+        <td width="220" class="title" style="padding:16px 16px 16px 0;">
+          Directory Management
+        </td>
+        <td class="desc" style="padding:16px 0;">
+          Take control of accounts and access with automation, real-time visibility, and straightforward policy enforcement.
+        </td>
+        <td width="32" class="arrow" style="padding:16px;">&rarr;</td>
+      </tr>
+      <tr class="sep"><td colspan="4">&nbsp;</td></tr>
+
+      <!-- ITEM 3 (cambia el color del dot y repite…) -->
+      <tr class="item">
+        <td width="24" style="padding:16px;">
+          <span class="dot" style="background:#0EA5E9;"></span>
+        </td>
+        <td width="220" class="title" style="padding:16px 16px 16px 0;">
+          Endpoint Management
+        </td>
+        <td class="desc" style="padding:16px 0;">
+          Secure every endpoint, simplify compliance, and keep teams productive—no matter where they work.
+        </td>
+        <td width="32" class="arrow" style="padding:16px;">&rarr;</td>
+      </tr>
+      <!-- si no quieres línea al final, no añadas .sep tras el último -->
+    </mj-table>
+  </mj-column>
+</mj-section>

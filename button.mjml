@@ -1,0 +1,13 @@
+
+			<mj-button
+				background-color="#5851DB"
+				padding="6px 20px"
+				border-radius="30px"
+				color="#FCFAF5"
+				font-size="16px"
+				line-height="140%"
+				font-family="Arial"
+				font-weight="400"
+				align="right">
+			Button
+			</mj-button>
