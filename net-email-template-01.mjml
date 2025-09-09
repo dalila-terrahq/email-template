@@ -1186,21 +1186,38 @@
     </mj-section>
 
 
-<!-- Review - TOFIX stars -->
-    <mj-section background-color="#FCFAF5" padding="40px 32px 32px 32px" border="1px solid #000000">
-    	<mj-column width="100%" vertical-align="middle">
-				<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/5stars.png?version=0" alt="star review" width="108px" align="left">
-      	</mj-image>
-        
-        <mj-text padding="32px 0 56px 0" color="#1A1536" font-size="15px" font-weight="400" line-height="140%">
-          Lorem ipsum dolor sit amet consectetur. Etiam lectus pretium nisl volutpat urna. Id orci neque sit eget morbi sed in suspendisse. In lectus pellentesque neque molestie vulputate venenatis velit.
-        </mj-text>
-        <mj-text color="#1A1536" font-size="18px" font-weight="400" line-height="140%">
-          John Doe
-        </mj-text>
-        <mj-text color="#4D4D4D" font-size="16px" font-weight="400" line-height="140%">
-          Job Position, Company
-        </mj-text>
+<!-- Review -  -->
+    <mj-section background-color="#FCFAF5" padding="0 30px">
+    	<mj-column width="100%" vertical-align="middle" padding="40px 32px 32px 32px" border="1px solid #000000">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/5stars.png?version=0" alt="star review" width="108px" align="left">
+			</mj-image>
+			
+			<mj-text padding="32px 0 56px 0" color="#1A1536" font-size="15px" font-weight="400" line-height="140%">
+			Lorem ipsum dolor sit amet consectetur. Etiam lectus pretium nisl volutpat urna. Id orci neque sit eget morbi sed in suspendisse. In lectus pellentesque neque molestie vulputate venenatis velit.
+			</mj-text>
+			<mj-text color="#1A1536" font-size="18px" font-weight="400" line-height="140%">
+			John Doe
+			</mj-text>
+			<mj-text color="#4D4D4D" font-size="16px" font-weight="400" line-height="140%">
+			Job Position, Company
+			</mj-text>
+      	</mj-column>
+		<mj-column width="100%" padding="16px 30px">
+		</mj-column>
+
+	    <mj-column width="100%" vertical-align="middle" padding="40px 32px 32px 32px" border="1px solid #000000">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/5stars.png?version=0" alt="star review" width="108px" align="left">
+			</mj-image>
+			
+			<mj-text padding="32px 0 56px 0" color="#1A1536" font-size="15px" font-weight="400" line-height="140%">
+			Lorem ipsum dolor sit amet consectetur. Etiam lectus pretium nisl volutpat urna. Id orci neque sit eget morbi sed in suspendisse. In lectus pellentesque neque molestie vulputate venenatis velit.
+			</mj-text>
+			<mj-text color="#1A1536" font-size="18px" font-weight="400" line-height="140%">
+			John Doe
+			</mj-text>
+			<mj-text color="#4D4D4D" font-size="16px" font-weight="400" line-height="140%">
+			Job Position, Company
+			</mj-text>
       </mj-column>
     </mj-section>
 
@@ -1325,13 +1342,13 @@
 <!-- 2 Publications  -->
 	<mj-section padding="32px 30px 32px 30px" background-color="#FCFAF5">
 		<mj-column width="262px" border="1px solid #000000" padding="32px 24px 32px 24px" background-color="#1A1536">
-     	<mj-text color="#FAF6ED" font-size="12px" font-weight="400" line-height="140%">
+     	<mj-text color="#FCFAF5" font-size="12px" font-weight="400" line-height="140%">
 				Freeware
 			</mj-text>
-			<mj-text font-size="18px" font-weight="400" line-height="130%" color="#FAF6ED" padding-top="16px" padding-bottom="80px">
+			<mj-text font-size="18px" font-weight="400" line-height="130%" color="#FCFAF5" padding-top="16px" padding-bottom="80px">
 			Navigating Compliance Complexities with Modern IAM Solutions			</mj-text>
-      <mj-text font-size="12px" color="#FAF6ED" font-weight="400" line-height="140%" padding-top="16px">
-        <a href="https://ejemplo.com" target="blank" style="color:#FAF6ED; text-decoration:none; border:1px solid #FAF6ED; padding:8px 16px" >
+      <mj-text font-size="12px" color="#FCFAF5" font-weight="400" line-height="140%" padding-top="16px">
+        <a href="https://ejemplo.com" target="blank" style="color:#FCFAF5; text-decoration:none; border:1px solid #FCFAF5; padding:8px 16px" >
           Topic Name
         </a>
       </mj-text>
@@ -1339,14 +1356,14 @@
 		</mj-column>
 		<mj-column width="16px">
 		</mj-column>
-				<mj-column width="262px" border="1px solid #000000" padding="32px 24px 32px 24px" background-color="#1A1536">
-     	<mj-text color="#FAF6ED" font-size="12px" font-weight="400" line-height="140%">
+		<mj-column width="262px" border="1px solid #000000" padding="32px 24px 32px 24px" background-color="#1A1536">
+     		<mj-text color="#FCFAF5" font-size="12px" font-weight="400" line-height="140%">
 				Publication
 			</mj-text>
-			<mj-text font-size="18px" font-weight="400" line-height="130%" color="#FAF6ED" padding-top="16px" padding-bottom="80px">
+			<mj-text font-size="18px" font-weight="400" line-height="130%" color="#FCFAF5" padding-top="16px" padding-bottom="80px">
 			Navigating Compliance Complexities with Modern IAM Solutions			</mj-text>
-      <mj-text font-size="12px" color="#FAF6ED" font-weight="400" line-height="140%" padding-top="16px">
-        <a href="https://ejemplo.com" target="blank" style="color:#FAF6ED; text-decoration:none; border:1px solid #FAF6ED; padding:8px 16px" >
+      		<mj-text font-size="12px" color="#FCFAF5" font-weight="400" line-height="140%" padding-top="16px">
+        	<a href="https://ejemplo.com" target="blank" style="color:#FCFAF5; text-decoration:none; border:1px solid #FCFAF5; padding:8px 16px" >
           Topic Name
         </a>
       </mj-text>
@@ -1355,24 +1372,24 @@
 
 
 <!-- Events -->
-    <mj-section padding="32px 30px" background-color="#FAF6ED">
+    <mj-section padding="32px 30px" background-color="#FCFAF5">
       <mj-column background-color="#1A1536" padding="32px">
 
         <!-- upcoming | icono + fecha -->
         <mj-table cellpadding="0" cellspacing="0" width="65%">
           <tr>
-            <td style="font-size:15px; color:#FAF6ED; line-height:140%; white-space:nowrap;">
+            <td style="font-size:15px; color:#FCFAF5; line-height:140%; white-space:nowrap;">
               Upcoming Webinar
             </td>
-            <td style="padding: 0 12px; color:#FAF6ED; font-size:15px; line-height:24px;">|</td>
-            <td style="font-size:16px; color:#FAF6ED; line-height:24px; padding:0;">
+            <td style="padding: 0 12px; color:#FCFAF5; font-size:15px; line-height:24px;">|</td>
+            <td style="font-size:16px; color:#FCFAF5; line-height:24px; padding:0;">
               <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Vector.svg?version=0" alt="calendar icon" width="12" style="vertical-align:middle; margin-right:6px;" />
               July 10, 4pm ET</td>
           </tr>
         </mj-table>
 
         <!-- title -->
-        <mj-text color="#FFFFFF" font-size="21px" line-height="130%" font-weight="400" padding="16px 0">
+        <mj-text color="#FCFAF5" font-size="21px" line-height="130%" font-weight="400" padding="16px 0">
           Navigating Compliance Complexities with Modern IAM Solutions
         </mj-text>
 
@@ -1384,25 +1401,25 @@
         <!-- Speakers (2 cols) -->
          <mj-table cellpadding="0" cellspacing="0" width="50%">
           <tr>
-            <td style="font-size:16px; color:#FAF6ED; line-height:140%; white-space:nowrap;">
+            <td style="font-size:16px; color:#FCFAF5; line-height:140%; white-space:nowrap;">
               Jane Doe
             </td>
-            <td style="font-size:16px; color:#FAF6ED; line-height:140%; white-space:nowrap;">
+            <td style="font-size:16px; color:#FCFAF5; line-height:140%; white-space:nowrap;">
               Jane Doe
             </td>
           </tr>
           <tr>
-            <td style="font-size:12px; color:#FAF6ED; line-height:140%; white-space:nowrap;">
+            <td style="font-size:12px; color:#FCFAF5; line-height:140%; white-space:nowrap;">
               Company Name
             </td>
-            <td style="font-size:12px; color:#FAF6ED; line-height:140%; white-space:nowrap;">
+            <td style="font-size:12px; color:#FCFAF5; line-height:140%; white-space:nowrap;">
               Company Name
             </td>
           </tr>
         </mj-table>
 
-        <mj-text font-size="12px" color="#FAF6ED" font-weight="400" line-height="140%" padding-top="40px">
-          <a href="https://ejemplo.com" target="blank" style="color:#FAF6ED; text-decoration:none; border:1px solid #FAF6ED; padding:8px 16px" >
+        <mj-text font-size="12px" color="#FCFAF5" font-weight="400" line-height="140%" padding-top="40px">
+          <a href="https://ejemplo.com" target="blank" style="color:#FCFAF5; text-decoration:none; border:1px solid #FCFAF5; padding:8px 16px" >
             Topic Name
           </a>
         </mj-text>
@@ -1473,22 +1490,18 @@
 	</mj-section>
 
 
-<!-- Background grid light - TODO -->
-    <mj-section background-color="#FCFAF5" padding="32px 30px">
+<!-- Background grid light -->
+    <mj-section background-color="#FCFAF5">
     	<mj-column width="100%" vertical-align="middle">
-			<mj-text>
-			TO DO - bg grid light
-			</mj-text>
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/grid-a.png?version=0" alt="light grid background"></mj-image>
       	</mj-column>
     </mj-section>
 
 
-<!-- Background grid dark - TODO -->
-    <mj-section background-color="#FCFAF5" padding="32px 30px">
+<!-- Background grid dark -->
+    <mj-section background-color="#1A1536">
     	<mj-column width="100%" vertical-align="middle">
-			<mj-text>
-			TO DO - bg grid dark
-			</mj-text>
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/grid-a-dark.png?version=0" alt="dark grid background"></mj-image>
       	</mj-column>
     </mj-section>
 
@@ -1757,8 +1770,8 @@
 	</mj-section>
 
 
-<!-- CTA  subtitle heading + btn -->
-	<mj-section background-color="#FCFAF5" padding="56px 62px">
+<!-- CTA subtitle heading + btn -->
+	<mj-section background-color="#FCFAF5" padding="56px 62px" background-url="https://lp.netwrix.com/rs/130-MAN-089/images/bg-gradient-light.png?version=0" background-repeat="no-repeat" background-size="cover">
 		<mj-column width="100%" vertical-align="middle">
 			<mj-text font-size="12px" color="#5851DB" font-weight="400" line-height="140%" align="center">
 				Resource center
@@ -1899,45 +1912,57 @@
 
 <!-- Footer -->
 	<mj-section background-color="#FCFAF5" padding="24px 30px 0 30px" border-top="1px solid #000000">
-    	<mj-column width="60px" vertical-align="middle" padding="0 6px">
-			<mj-image src="http://placeholder.terrahq.com/logo-square.webp" alt="placeholder" width="33px">
-			</mj-image>
-      	</mj-column>
-        <mj-column width="60px" vertical-align="middle" padding="0 6px">
-			<mj-image src="http://placeholder.terrahq.com/logo-square.webp" alt="placeholder" width="33px">
-			</mj-image>
-      	</mj-column>
-        <mj-column width="60px" vertical-align="middle" padding="0 6px">
-			<mj-image src="http://placeholder.terrahq.com/logo-square.webp" alt="placeholder"width="33px">
-			</mj-image>
-      	</mj-column>
-        <mj-column width="60px" vertical-align="middle" padding="0 6px">
-			<mj-image src="http://placeholder.terrahq.com/logo-square.webp" alt="placeholder" width="33px">
-			</mj-image>
-      	</mj-column>
-        <mj-column width="60px" vertical-align="middle" padding="0 6px">
-			<mj-image src="http://placeholder.terrahq.com/logo-square.webp" alt="placeholder" width="33px">
-			</mj-image>
-      	</mj-column>
-		<mj-column width="60px" vertical-align="middle" padding="0 6px">
-			<mj-image src="http://placeholder.terrahq.com/logo-square.webp" alt="placeholder" width="33px">
-			</mj-image>
-      	</mj-column>
-    </mj-section>
-    
+	<mj-column width="60%">
+		<mj-table align="center" cellpadding="0" cellspacing="0">
+		<tr>
+			<td style="padding:0 6px;">
+			<a href="#" target="_blank">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/icon-linkedin.png?version=0" width="33" alt="LinkedIn" border="0" style="display:block;">
+			</a>
+			</td>
+			<td style="padding:0 6px;">
+			<a href="#" target="_blank">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/icon-x.png?version=0" width="33" alt="X" border="0" style="display:block;">
+			</a>
+			</td>
+			<td style="padding:0 6px;">
+			<a href="#" target="_blank">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/icon-fb.png?version=0" width="33" alt="Facebook" border="0" style="display:block;">
+			</a>
+			</td>
+			<td style="padding:0 6px;">
+			<a href="#" target="_blank">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/icon-yt.png?version=0" width="33" alt="YouTube" border="0" style="display:block;">
+			</a>
+			</td>
+			<td style="padding:0 6px;">
+			<a href="#" target="_blank">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/icon-ig.png?version=0" width="33" alt="Instagram" border="0" style="display:block;">
+			</a>
+			</td>
+			<td style="padding:0 6px;">
+			<a href="#" target="_blank">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/icon-spiceworks.png?version=0" width="33" alt="Spiceworks" border="0" style="display:block;">
+			</a>
+			</td>
+		</tr>
+		</mj-table>
+	</mj-column>
+	</mj-section>
+
 	<mj-section background-color="#FCFAF5" padding="24px 30px">
-		<mj-column width="100%" vertical-align="middle">
-			<mj-text font-size="10px" color="#000000" font-weight="400" line-height="130%" align="center">
-				Corporate Headquarters: 6160 Warren Parkway, Suite 100, Frisco, TX, US 75034
-				</br>
-				© 2025 Netwrix Corporation. All rights reserved. 
-			</mj-text>
-				<mj-text font-size="10px" color="#000000" font-weight="400" line-height="140%" padding-top="8px" align="center">
-					<a href="https://ejemplo.com" target="_blank" style="color:#000000; text-decoration: underline; text-decoration-position="from-font">
-						Manage your email preferences
-					</a>
-			</mj-text>
-    </mj-column>
+	<mj-column width="100%">
+		<mj-text font-size="10px" color="#000000" font-weight="400" line-height="130%" align="center" padding="0">
+		Corporate Headquarters: 6160 Warren Parkway, Suite 100, Frisco, TX, US 75034<br/>
+		© 2025 Netwrix Corporation. All rights reserved.
+		</mj-text>
+
+		<mj-text font-size="10px" color="#000000" font-weight="400" line-height="140%" align="center" padding="8px 0 0 0">
+		<a href="https://ejemplo.com" target="_blank" style="color:#000000; text-decoration:underline;">
+			Manage your email preferences
+		</a>
+		</mj-text>
+	</mj-column>
 	</mj-section>
 
 
