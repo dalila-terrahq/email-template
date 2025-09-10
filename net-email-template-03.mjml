@@ -16,6 +16,8 @@
 		.pt24-m { padding-top: 24px !important; }
   		.pt8-m  { padding-top:8px  !important; }
 		.pt0-m > table > tr > td, .pt0-m > table > tbody > tr > td { padding: 0 30px 32px !important; }
+		.mobile-no-padding { padding: 0 !important;}
+		.pb24-m { padding-bottom:24px !important; }
 		.stack-center .center-m table {
 			margin-left:auto !important;
 			margin-right:auto !important;
@@ -1174,28 +1176,213 @@
     </mj-section>
 
 <!-- Data 2 cols - TODO-->
-    <mj-section background-color="#FCFAF5" padding="32px 30px">
-    	<mj-column width="50%" vertical-align="middle" padding-right="8px">
-			<mj-text>
-			TO DO - data 2 cols
-			</mj-text>
-      	</mj-column>
-    </mj-section>
+        <mj-section background-color="#FCFAF5" padding="32px 30px">
+      <mj-column width="50%" padding="0 8px 0 0">
+        <!-- ITEM 1 -->
+        <mj-table cellpadding="0" cellspacing="0" width="100%" padding-bottom="40px" css-class="mb32">
+          <tr>
+            <td style="vertical-align:top; width:12px; padding-right:16px;">
+              <img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-green.png?version=0" width="12" alt="" style="display:block;border:0; padding-top:6px">
+            </td>
+            <td style="vertical-align:top;">
+              <div style="font-family:Arial, sans-serif; font-size:18px; line-height:140%; font-weight:400; color:#000; margin:0 0 16px 0;">
+                Protect your most sensitive data
+              </div>
+              <div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%; color:#4D4D4D; margin:0;">
+                Classify and prioritize business-critical information with ease. Focus your protection efforts on the data that matters most.
+              </div>
+            </td>
+          </tr>
+        </mj-table>
 
-<!-- Data 1 col - TODO -->
-    <mj-section background-color="#FCFAF5" padding="32px 30px">
-		<mj-column width="10%" vertical-align="middle" padding-right="16px">
-			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-green.png?version=0" alt="green dot" width="12px"></mj-image>
+        <!-- ITEM 2 -->
+        <mj-table cellpadding="0" cellspacing="0" width="100%" padding-bottom="40px" css-class="mb32">
+          <tr>
+            <td style="vertical-align:top; width:12px; padding-right:16px;">
+              <img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-turq.png?version=0" width="12" alt="" style="display:block;border:0;padding-top:6px">
+            </td>
+            <td style="vertical-align:top;">
+              <div style="font-family:Arial, sans-serif; font-size:18px; line-height:140%; font-weight:400; color:#000; margin:0 0 16px 0;">
+                Gain full visibility across on-prem and cloud
+              </div>
+              <div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%; color:#4D4D4D; margin:0;">
+                See all your sensitive data in one unified platform, on-prem, in the cloud, or hybrid.
+              </div>
+            </td>
+          </tr>
+        </mj-table>
+
+      </mj-column>
+
+      <!-- Columna derecha (50%) -->
+      <mj-column width="50%" padding="0 0 0 8px">
+        <!-- ITEM 4 -->
+        <mj-table cellpadding="0" cellspacing="0" width="100%" css-class="mb32" padding-bottom="40px">
+          <tr>
+            <td style="vertical-align:top; width:12px; padding-right:16px;">
+              <img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-yellow.png?version=0" width="12" alt="" style="display:block;border:0;">
+            </td>
+            <td style="vertical-align:top;">
+              <div style="font-family:Arial, sans-serif; font-size:18px; line-height:140%; font-weight:400; color:#000; margin:0 0 16px 0;">
+                Deploy in days, not weeks
+              </div>
+              <div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%; color:#4D4D4D; margin:0;">
+                Simple implementation and intelligent defaults. No complex cycles.
+              </div>
+            </td>
+          </tr>
+
+        </mj-table>
+
+        <!-- ITEM 5 -->
+        <mj-table cellpadding="0" cellspacing="0" width="100%" css-class="mb32">
+          <tr>
+            <td style="vertical-align:top; width:12px; padding-right:16px;">
+              <img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-orange.png?version=0" width="12" alt="" style="display:block;border:0;">
+            </td>
+            <td style="vertical-align:top;">
+              <div style="font-family:Arial, sans-serif; font-size:18px; line-height:140%; font-weight:400; color:#000; margin:0 0 16px 0;">
+                Built-in frameworks for compliance
+              </div>
+              <div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%; color:#4D4D4D; margin:0;">
+                GDPR, CCPA, HIPAA and more. Automated reporting keeps you audit-ready.
+              </div>
+            </td>
+          </tr>
+          <tr><td style="height:32px;"></td></tr>
+        </mj-table>
+
+<!-- Data 1 col -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px 40px 30px">
+		<mj-column padding="0">
+			<mj-table cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td style="vertical-align:top; width:12px; padding-right:16px; padding-top:6px;">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-green.png?version=0"
+					alt="green dot" width="12"
+					style="display:block; border:0;">
+				</td>
+
+				<td style="vertical-align:top;">
+				<div style="font-family:Arial, sans-serif; font-size:18px; font-weight:400; line-height:140%; color:#000000; margin:0 0 16px 0;">
+					Protect your most sensitive data
+				</div>
+				<div style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; line-height:140%; color:#4D4D4D; margin:0;">
+					Classify and prioritize business-critical information with ease. Focus your protection efforts on the data that matters most.
+				</div>
+				</td>
+			</tr>
+			</mj-table>
 		</mj-column>
-    	<mj-column width="90%" vertical-align="middle">
-			<mj-text color="#000000" font-size="18px" line-height="140%" font-weight="400">
-				Protect your most sensitive data
-			</mj-text>
-			<mj-text color="#4D4D4D" font-size="14px" line-height="140%" font-weight="400">
-				Classify and prioritize business-critical information with ease. Focus your protection efforts on the data that matters most. 
-			</mj-text>
-      	</mj-column>
-    </mj-section>
+		</mj-section>
+
+				
+		<mj-section background-color="#FCFAF5" padding="0 30px 40px 30px">
+		<mj-column padding="0">
+			<mj-table cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td style="vertical-align:top; width:12px; padding-right:16px; padding-top:6px;">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-yellow.png?version=0"
+					alt="yellow dot" width="12"
+					style="display:block; border:0;">
+				</td>
+
+				<td style="vertical-align:top;">
+				<div style="font-family:Arial, sans-serif; font-size:18px; font-weight:400; line-height:140%; color:#000000; margin:0 0 16px 0;">
+					Deploy in days, not weeks
+				</div>
+				<div style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; line-height:140%; color:#4D4D4D; margin:0;">
+				Get up and running fast with simple implementation and intelligent defaults. No complex configurations or cycles needed. 
+				</div>
+				</td>
+			</tr>
+			</mj-table>
+		</mj-column>
+		</mj-section>
+
+		<mj-section background-color="#FCFAF5" padding="0 30px 40px 30px">
+		<mj-column padding="0">
+			<mj-table cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td style="vertical-align:top; width:12px; padding-right:16px; padding-top:6px;">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-turq.png?version=0"
+					alt="turquoise dot" width="12"
+					style="display:block; border:0;">
+				</td>
+
+				<td style="vertical-align:top;">
+				<div style="font-family:Arial, sans-serif; font-size:18px; font-weight:400; line-height:140%; color:#000000; margin:0 0 16px 0;">
+		Gain full visibility across on-prem and cloud          </div>
+				<div style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; line-height:140%; color:#4D4D4D; margin:0;">
+		See all your sensitive data in one unified platform, whether it’s stored on-premises, in the cloud, or across hybrid environments.          </div>
+				</td>
+			</tr>
+			</mj-table>
+		</mj-column>
+		</mj-section>
+
+			<mj-section background-color="#FCFAF5" padding="0 30px 40px 30px">
+		<mj-column padding="0">
+			<mj-table cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td style="vertical-align:top; width:12px; padding-right:16px; padding-top:6px;">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-orange.png?version=0"
+					alt="orange dot" width="12"
+					style="display:block; border:0;">
+				</td>
+
+				<td style="vertical-align:top;">
+				<div style="font-family:Arial, sans-serif; font-size:18px; font-weight:400; line-height:140%; color:#000000; margin:0 0 16px 0;">
+		Easily integrate with your stack </div>
+				<div style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; line-height:140%; color:#4D4D4D; margin:0;">
+		Built-in frameworks for GDPR, CCPA, HIPAA, and more. Automated reporting keeps you audit-ready without the administrative burden.          </div>
+				</td>
+			</tr>
+			</mj-table>
+		</mj-column>
+		</mj-section>
+
+				<mj-section background-color="#FCFAF5" padding="0 30px 40px 30px">
+		<mj-column padding="0">
+			<mj-table cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td style="vertical-align:top; width:12px; padding-right:16px; padding-top:6px;">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-red.png?version=0"
+					alt="red dot" width="12"
+					style="display:block; border:0;">
+				</td>
+
+				<td style="vertical-align:top;">
+				<div style="font-family:Arial, sans-serif; font-size:18px; font-weight:400; line-height:140%; color:#000000; margin:0 0 16px 0;">
+		Easily integrate with your stack </div>
+				<div style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; line-height:140%; color:#4D4D4D; margin:0;">
+		Work seamlessly with your existing tools and security workflows thanks to easy integration with SEIM, DLP, and leading governance platforms.          </div>
+				</td>
+			</tr>
+			</mj-table>
+		</mj-column>
+		</mj-section>
+
+				<mj-section background-color="#FCFAF5" padding="0 30px 40px 30px">
+		<mj-column padding="0">
+			<mj-table cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td style="vertical-align:top; width:12px; padding-right:16px; padding-top:6px;">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-blue.png?version=0"
+					alt="blue dot" width="12"
+					style="display:block; border:0;">
+				</td>
+
+				<td style="vertical-align:top;">
+				<div style="font-family:Arial, sans-serif; font-size:18px; font-weight:400; line-height:140%; color:#000000; margin:0 0 16px 0;">
+		Cut costs without cutting corners </div>
+				<div style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; line-height:140%; color:#4D4D4D; margin:0;">
+		Reduce expensive overheads with an all-in-one solution. Optimize spend while improving overall security and data protection.          </div>
+				</td>
+			</tr>
+			</mj-table>
+		</mj-column>
+		</mj-section>
 
 
 <!-- Stats - bg light -->
