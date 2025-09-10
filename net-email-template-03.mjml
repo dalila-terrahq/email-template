@@ -13,63 +13,73 @@
 	<mj-style>
 		@media only screen and (max-width:480px){
 
-		.pt24-m { padding-top: 24px !important; }
-  		.pt8-m  { padding-top:8px  !important; }
-		.pt0-m > table > tr > td, .pt0-m > table > tbody > tr > td { padding: 0 30px 32px !important; }
-		.mobile-no-padding { padding: 0 !important;}
-		.pb24-m { padding-bottom:24px !important; }
-		.stack-center .center-m table {
-			margin-left:auto !important;
-			margin-right:auto !important;
-		}
+			.pt24-m { padding-top: 24px !important; }
+			.pt8-m  { padding-top:8px  !important; }
+			.pt0-m > table > tr > td, .pt0-m > table > tbody > tr > td { padding: 0 30px 32px !important; }
+			.mobile-no-padding { padding: 0 !important;}
+			.pb24-m { padding-bottom:24px !important; }
+			.stack-center .center-m table {
+				margin-left:auto !important;
+				margin-right:auto !important;
+			}
 
-		.stack-center .center-m td { text-align:center !important; }
-      	.stack-center .mj-column-per-70, .stack-center .mj-column-per-30 {
-    		width:100% !important;
-			max-width:100% !important;
-      	}
-    	.stack-center .mobile-no-padding > table > tr > td, .stack-center .mobile-no-padding > table > tbody > tr > td {
-			padding-left:0 !important;
-			padding-right:0 !important;
-		}
-      	.center-m { text-align:center !important; }
-      	.center-m img { display:block !important; margin:0 auto !important; }
-      	.btn-center-m table { margin:0 auto !important; }
-      	.btn-block-m table { width:100% !important; }
+			.stack-center .center-m td { text-align:center !important; }
+			.stack-center .mj-column-per-70, .stack-center .mj-column-per-30 {
+				width:100% !important;
+				max-width:100% !important;
+			}
+			.stack-center .mobile-no-padding > table > tr > td, .stack-center .mobile-no-padding > table > tbody > tr > td {
+				padding-left:0 !important;
+				padding-right:0 !important;
+			}
+			.center-m { text-align:center !important; }
+			.center-m img { display:block !important; margin:0 auto !important; }
+			.btn-center-m table { margin:0 auto !important; }
+			.btn-block-m table { width:100% !important; }
 
-		.tight-row .mj-column-px-60, .tight-row .mj-column-px-40, .tight-row .mj-column-px-120 {
+			.tight-row .mj-column-px-60, .tight-row .mj-column-px-40, .tight-row .mj-column-px-120 {
+				width:100% !important;
+				max-width:100% !important;
+			}
+
+			.center-m table { margin-left:auto !important; margin-right:auto !important; }
+			.center-m td    { text-align:center !important; }
+			.center-m img   { display:block !important; margin:0 auto !important; }
+
+			.tight-row .no-pad > table > tr > td, .tight-row .no-pad > table > tbody > tr > td { padding:0 !important; }
+
+			.checks .pill{
+			display:block !important;
 			width:100% !important;
-			max-width:100% !important;
-		}
+			padding:0 0 12px 0 !important;
+			}
+			.checks .pill > table{ width:100% !important; }
+			.checks .text{ white-space:normal !important; }
+			.checks .hgap{ display:none !important; }
+			.checks .pill table[role="presentation"]{
+				display:block !important;
+				width:100% !important;
+				margin-bottom:12px !important;
+			}
+			.checks .pill table[role="presentation"]:last-of-type{
+				margin-bottom:0 !important;
+			}
+			.event-meta td{ display:block !important; width:100% !important; }
+			.event-meta .meta-sep{ display:none !important; }
+			.event-meta .meta-right{ padding-top:4px !important; }
 
-		.center-m table { margin-left:auto !important; margin-right:auto !important; }
-		.center-m td    { text-align:center !important; }
-		.center-m img   { display:block !important; margin:0 auto !important; }
+			.speakers-wrap td.spk{ display:block !important; width:100% !important; }
+			.speakers-wrap td.spk.second{ padding-top:8px !important; }
 
-		.tight-row .no-pad > table > tr > td, .tight-row .no-pad > table > tbody > tr > td { padding:0 !important; }
+			.list3 td.col{
+				display:block !important;
+				width:100% !important;
+                padding-left:0 !important;
+				padding-right:0 !important; }
+			.list3 td.arrow { display:none !important; }
+			.list3 .title{ font-size:16px !important; line-height:130% !important; }
+			.list3 td.sep{ padding-left:0 !important; padding-right:0 !important; }
 
-		.checks .pill{
-          display:block !important;
-          width:100% !important;
-          padding:0 0 12px 0 !important;
-        }
-        .checks .pill > table{ width:100% !important; }
-        .checks .text{ white-space:normal !important; }
-        .checks .hgap{ display:none !important; }
-		.checks .pill table[role="presentation"]{
-            display:block !important;
-            width:100% !important;
-            margin-bottom:12px !important;
-  		}
-  		.checks .pill table[role="presentation"]:last-of-type{
-    		margin-bottom:0 !important;
-		}
-		.event-meta td{ display:block !important; width:100% !important; }
-		.event-meta .meta-sep{ display:none !important; }
-		.event-meta .meta-right{ padding-top:4px !important; }
-
-		.speakers-wrap td.spk{ display:block !important; width:100% !important; }
-		.speakers-wrap td.spk.second{ padding-top:8px !important; }
     }
   	</mj-style>
   </mj-head>
@@ -445,6 +455,7 @@
       	</mj-column>
     </mj-section>
 
+
 <!-- Heading left - bg dark -->
     <mj-section background-color="#1A1536" padding="32px 30px">
     	<mj-column width="100%" vertical-align="middle">
@@ -460,6 +471,7 @@
       	</mj-column>
     </mj-section>
 
+
 <!-- Heading center - bg light -->
     <mj-section background-color="#FCFAF5" padding="32px 30px">
     	<mj-column width="90%" vertical-align="middle">
@@ -474,6 +486,7 @@
 			</mj-text>
       	</mj-column>
     </mj-section>
+
 
 <!-- Heading center - bg dark -->
     <mj-section background-color="#1A1536" padding="32px 30px">
@@ -1166,91 +1179,444 @@
     </mj-section>
 
 
-<!-- Data row - TODO-->
-    <mj-section background-color="#FCFAF5" padding="32px 30px">
-    	<mj-column width="50%" vertical-align="middle" padding-right="8px">
-			<mj-text>
-			TO DO - data row
-			</mj-text>
-      	</mj-column>
-    </mj-section>
+<!-- Data row -->
+	<mj-section padding="32px 30px 0px 30px" background-color="#FCFAF5">
+  	<mj-column padding="0">
+    <mj-table css-class="list3" width="100%" cellpadding="0" cellspacing="0">
 
-<!-- Data 2 cols - TODO-->
-        <mj-section background-color="#FCFAF5" padding="32px 30px">
+      <!-- ===== ITEM ===== -->
+      <tr>
+        <td class="col left" valign="middle" width="50%" style="padding:0px 4px;">
+          <a href="#" target="_blank" style="display:block; text-decoration:none; color:#000;">
+            <table cellpadding="0" cellspacing="0">
+              <tr>
+                <td style="width:16px; padding-right:16px; vertical-align:middle;">
+                  <span style="display:inline-block; width:12px; height:12px; background:#41F27C;"></span>
+                </td>
+                <td class="title" style="font-family:Arial, sans-serif; font-size:14px; line-height:125%; color:#000;">
+                  Data Security Posture Management
+                </td>
+              </tr>
+            </table>
+          </a>
+        </td>
+
+        <!-- Texto (enlace) + flecha móvil -->
+        <td class="col copy" valign="middle" width="50%" style="padding:16px 4px;">
+          <a href="#" target="_blank" style="display:block; text-decoration:none; color:#4D4D4D;">
+            <div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%;">
+              Find and protect sensitive data, track user activity, and shut down risky behavior before it becomes a breach.
+            </div>
+          </a>
+        </td>
+
+        <!-- Flecha (solo desktop) -->
+        <td class="col arrow" valign="middle" align="right" style="padding:16px 0;">
+          <a href="https://ejemplo.com" target="_blank" style="text-decoration:none;">
+            <img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow%20v2.svg?version=0"
+                 width="12" height="12" alt="→" style="display:block; border:0;padding-left:8px">
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="sep" colspan="3"
+            style="height:1px; line-height:1px; font-size:0; border-bottom:1px solid #000; padding:0 0 0 84px;">
+          &nbsp;
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+	</mj-section>
+  
+  	<mj-section padding="0px 30px" background-color="#FCFAF5">
+	<mj-column padding="0">
+		<mj-table css-class="list3" width="100%" cellpadding="0" cellspacing="0">
+
+		<tr>
+			<td class="col left" valign="middle" width="50%" style="padding:0px 4px;">
+			<a href="#" target="_blank" style="display:block; text-decoration:none; color:#000;">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td style="width:16px; padding-right:16px; vertical-align:middle;">
+					<span style="display:inline-block; width:12px; height:12px; background:#897DCD;"></span>
+					</td>
+					<td class="title" style="font-family:Arial, sans-serif; font-size:14px; line-height:125%; color:#000;">
+					Directory Management
+					</td>
+				</tr>
+				</table>
+			</a>
+			</td>
+
+			<td class="col copy" valign="middle" width="50%" style="padding:16px 4px;">
+			<a href="https://ejemplo.com" target="_blank" style="display:block; text-decoration:none; color:#4D4D4D;">
+				<div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%;">
+				Take control of accounts and access with automation, real-time visibility, and straightforward policy enforcement.
+				</div>
+			</a>
+			</td>
+			<td class="col arrow" valign="middle" align="right" style="padding:16px 0;">
+			<a href="#" target="_blank" style="text-decoration:none;">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow%20v2.svg?version=0"
+					width="12" height="12" alt="→" style="display:block; border:0;padding-left:8px">
+			</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="sep" colspan="3"
+				style="height:1px; line-height:1px; font-size:0; border-bottom:1px solid #000; padding:0 0 0 84px;">
+			&nbsp;
+			</td>
+		</tr>
+		</mj-table>
+	</mj-column>
+	</mj-section>
+
+
+  	<mj-section padding="0px 30px" background-color="#FCFAF5">
+	<mj-column padding="0">
+		<mj-table css-class="list3" width="100%" cellpadding="0" cellspacing="0">
+
+		<tr>
+			<td class="col left" valign="middle" width="50%" style="padding:0px 4px;">
+			<a href="#" target="_blank" style="display:block; text-decoration:none; color:#000;">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td style="width:16px; padding-right:16px; vertical-align:middle;">
+					<span style="display:inline-block; width:12px; height:12px; background:#219EBC;"></span>
+					</td>
+					<td class="title" style="font-family:Arial, sans-serif; font-size:14px; line-height:125%; color:#000;">
+					Endpoint Management
+					</td>
+				</tr>
+				</table>
+			</a>
+			</td>
+
+			<td class="col copy" valign="middle" width="50%" style="padding:16px 4px;">
+			<a href="https://ejemplo.com" target="_blank" style="display:block; text-decoration:none; color:#4D4D4D;">
+				<div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%;">
+				Secure every endpoint, simplify compliance, and keep teams productive — no matter where they work.
+				</div>
+			</a>
+			</td>
+			<td class="col arrow" valign="middle" align="right" style="padding:16px 0;">
+			<a href="#" target="_blank" style="text-decoration:none;">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow%20v2.svg?version=0"
+					width="12" height="12" alt="→" style="display:block; border:0;padding-left:8px">
+			</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="sep" colspan="3"
+				style="height:1px; line-height:1px; font-size:0; border-bottom:1px solid #000; padding:0 0 0 84px;">
+			&nbsp;
+			</td>
+		</tr>
+		</mj-table>
+	</mj-column>
+	</mj-section>
+
+  	<mj-section padding="0px 30px" background-color="#FCFAF5">
+	<mj-column padding="0">
+		<mj-table css-class="list3" width="100%" cellpadding="0" cellspacing="0">
+
+		<tr>
+			<td class="col left" valign="middle" width="50%" style="padding:0px 4px;">
+			<a href="#" target="_blank" style="display:block; text-decoration:none; color:#000;">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td style="width:16px; padding-right:16px; vertical-align:middle;">
+					<span style="display:inline-block; width:12px; height:12px; background:#F36A1D;"></span>
+					</td>
+					<td class="title" style="font-family:Arial, sans-serif; font-size:14px; line-height:125%; color:#000;">
+						Identity Management					</td>
+				</tr>
+				</table>
+			</a>
+			</td>
+
+			<td class="col copy" valign="middle" width="50%" style="padding:16px 4px;">
+			<a href="https://ejemplo.com" target="_blank" style="display:block; text-decoration:none; color:#4D4D4D;">
+				<div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%;">
+				Manage and govern identities at scale with automated access, reduced privilege sprawl, and simplified compliance.
+				</div>
+			</a>
+			</td>
+			<td class="col arrow" valign="middle" align="right" style="padding:16px 0;">
+			<a href="#" target="_blank" style="text-decoration:none;">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow%20v2.svg?version=0"
+					width="12" height="12" alt="→" style="display:block; border:0;padding-left:8px">
+			</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="sep" colspan="3"
+				style="height:1px; line-height:1px; font-size:0; border-bottom:1px solid #000; padding:0 0 0 84px;">
+			&nbsp;
+			</td>
+		</tr>
+		</mj-table>
+	</mj-column>
+	</mj-section>
+
+  	<mj-section padding="0px 30px" background-color="#FCFAF5">
+	<mj-column padding="0">
+		<mj-table css-class="list3" width="100%" cellpadding="0" cellspacing="0">
+
+		<tr>
+			<td class="col left" valign="middle" width="50%" style="padding:0px 4px;">
+			<a href="#" target="_blank" style="display:block; text-decoration:none; color:#000;">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td style="width:16px; padding-right:16px; vertical-align:middle;">
+					<span style="display:inline-block; width:12px; height:12px; background:#C14589;"></span>
+					</td>
+					<td class="title" style="font-family:Arial, sans-serif; font-size:14px; line-height:125%; color:#000;">
+					Identity Threat Detection and Response				</td>
+				</tr>
+				</table>
+			</a>
+			</td>
+
+			<td class="col copy" valign="middle" width="50%" style="padding:16px 4px;">
+			<a href="https://ejemplo.com" target="_blank" style="display:block; text-decoration:none; color:#4D4D4D;">
+				<div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%;">
+				Detect suspicious activity sooner, respond faster, and recover quickly to minimize downtime and avoid business disruptions.
+				</div>
+			</a>
+			</td>
+			<td class="col arrow" valign="middle" align="right" style="padding:16px 0;">
+			<a href="#" target="_blank" style="text-decoration:none;">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow%20v2.svg?version=0"
+					width="12" height="12" alt="→" style="display:block; border:0;padding-left:8px">
+			</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="sep" colspan="3"
+				style="height:1px; line-height:1px; font-size:0; border-bottom:1px solid #000; padding:0 0 0 84px;">
+			&nbsp;
+			</td>
+		</tr>
+		</mj-table>
+	</mj-column>
+	</mj-section>
+
+
+  	<mj-section padding="0px 30px 32px" background-color="#FCFAF5">
+	<mj-column padding="0">
+		<mj-table css-class="list3" width="100%" cellpadding="0" cellspacing="0">
+
+		<tr>
+			<td class="col left" valign="middle" width="50%" style="padding:0px 4px;">
+			<a href="#" target="_blank" style="display:block; text-decoration:none; color:#000;">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td style="width:16px; padding-right:16px; vertical-align:middle;">
+					<span style="display:inline-block; width:12px; height:12px; background:#F4B400;"></span>
+					</td>
+					<td class="title" style="font-family:Arial, sans-serif; font-size:14px; line-height:125%; color:#000;">
+						Privileged Access Management			</td>
+				</tr>
+				</table>
+			</a>
+			</td>
+
+			<td class="col copy" valign="middle" width="50%" style="padding:16px 4px;">
+			<a href="https://ejemplo.com" target="_blank" style="display:block; text-decoration:none; color:#4D4D4D;">
+				<div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%;">
+						Lock down admin access, enforce least privilege, and stop credential misuse before attackers log in and move laterally.
+				</div>
+			</a>
+			</td>
+			<td class="col arrow" valign="middle" align="right" style="padding:16px 0;">
+			<a href="#" target="_blank" style="text-decoration:none;">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow%20v2.svg?version=0"
+					width="12" height="12" alt="→" style="display:block; border:0;padding-left:8px">
+			</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="sep" colspan="3"
+				style="height:1px; line-height:1px; font-size:0; border-bottom:1px solid #000; padding:0 0 0 84px;">
+			&nbsp;
+			</td>
+		</tr>
+
+		</mj-table>
+	</mj-column>
+	</mj-section>
+
+
+<!-- Data 2 cols -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px 0" css-class="grid-row">
+      <!-- Col 1 -->
       <mj-column width="50%" padding="0 8px 0 0">
-        <!-- ITEM 1 -->
-        <mj-table cellpadding="0" cellspacing="0" width="100%" padding-bottom="40px" css-class="mb32">
+        <mj-table cellpadding="0" cellspacing="0" width="100%">
           <tr>
-            <td style="vertical-align:top; width:12px; padding-right:16px;">
-              <img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-green.png?version=0" width="12" alt="" style="display:block;border:0; padding-top:6px">
+            <!--[if mso]><td height="120" style="height:120px; vertical-align:top;"><![endif]-->
+            <td class="eqh" style="vertical-align:top;">
+              <table cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td style="width:12px; padding-right:16px; vertical-align:top;">
+                    <img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-green.png?version=0" width="12" style="display:block;border:0;padding-top:6px" alt="">
+                  </td>
+                  <td style="vertical-align:top;">
+                    <div style="font-family:Arial, sans-serif; font-size:18px; line-height:140%; font-weight:400; color:#000; margin:0 0 16px 0;">
+                      Protect your most sensitive data
+                    </div>
+                    <div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%; color:#4D4D4D; margin:0;">
+                      Classify and prioritize business-critical information with ease. Focus your protection efforts on the data that matters most.
+                    </div>
+                  </td>
+                </tr>
+              </table>
+              <!-- /Contenido tarjeta -->
             </td>
-            <td style="vertical-align:top;">
-              <div style="font-family:Arial, sans-serif; font-size:18px; line-height:140%; font-weight:400; color:#000; margin:0 0 16px 0;">
-                Protect your most sensitive data
-              </div>
-              <div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%; color:#4D4D4D; margin:0;">
-                Classify and prioritize business-critical information with ease. Focus your protection efforts on the data that matters most.
-              </div>
-            </td>
+            <!--[if mso]></td><![endif]-->
           </tr>
         </mj-table>
-
-        <!-- ITEM 2 -->
-        <mj-table cellpadding="0" cellspacing="0" width="100%" padding-bottom="40px" css-class="mb32">
-          <tr>
-            <td style="vertical-align:top; width:12px; padding-right:16px;">
-              <img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-turq.png?version=0" width="12" alt="" style="display:block;border:0;padding-top:6px">
-            </td>
-            <td style="vertical-align:top;">
-              <div style="font-family:Arial, sans-serif; font-size:18px; line-height:140%; font-weight:400; color:#000; margin:0 0 16px 0;">
-                Gain full visibility across on-prem and cloud
-              </div>
-              <div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%; color:#4D4D4D; margin:0;">
-                See all your sensitive data in one unified platform, on-prem, in the cloud, or hybrid.
-              </div>
-            </td>
-          </tr>
-        </mj-table>
-
       </mj-column>
 
-      <!-- Columna derecha (50%) -->
-      <mj-column width="50%" padding="0 0 0 8px">
-        <!-- ITEM 4 -->
-        <mj-table cellpadding="0" cellspacing="0" width="100%" css-class="mb32" padding-bottom="40px">
+      <!-- Col 2 -->
+      <mj-column width="50%" padding="0 0 0 8px" css-class="pt24-m">
+        <mj-table cellpadding="0" cellspacing="0" width="100%">
           <tr>
-            <td style="vertical-align:top; width:12px; padding-right:16px;">
-              <img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-yellow.png?version=0" width="12" alt="" style="display:block;border:0;">
+            <!--[if mso]><td height="120" style="height:120px; vertical-align:top;"><![endif]-->
+            <td class="eqh" style="vertical-align:top;">
+              <table cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td style="width:12px; padding-right:16px; vertical-align:top;">
+                    <img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-yellow.png?version=0" width="12" style="display:block;border:0;padding-top:6px;" alt="">
+                  </td>
+                  <td style="vertical-align:top;">
+                    <div style="font-family:Arial, sans-serif; font-size:18px; line-height:140%; font-weight:400; color:#000; margin:0 0 16px 0;">
+                      Deploy in days, not weeks
+                    </div>
+                    <div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%; color:#4D4D4D; margin:0;">
+                      Get up and running fast with simple implementation and intelligent defaults. No complex configurations or cycles needed. 
+                    </div>
+                  </td>
+                </tr>
+              </table>
             </td>
-            <td style="vertical-align:top;">
-              <div style="font-family:Arial, sans-serif; font-size:18px; line-height:140%; font-weight:400; color:#000; margin:0 0 16px 0;">
-                Deploy in days, not weeks
-              </div>
-              <div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%; color:#4D4D4D; margin:0;">
-                Simple implementation and intelligent defaults. No complex cycles.
-              </div>
-            </td>
+            <!--[if mso]></td><![endif]-->
           </tr>
-
         </mj-table>
+      </mj-column>
+    </mj-section>
 
-        <!-- ITEM 5 -->
-        <mj-table cellpadding="0" cellspacing="0" width="100%" css-class="mb32">
+    <mj-section background-color="#FCFAF5" padding="40px 30px 0" css-class="pt0-m">
+      <mj-column width="50%" padding="0 8px 0 0" css-class="pt24-m">
+        <mj-table cellpadding="0" cellspacing="0" width="100%">
           <tr>
-            <td style="vertical-align:top; width:12px; padding-right:16px;">
-              <img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-orange.png?version=0" width="12" alt="" style="display:block;border:0;">
+            <!--[if mso]><td height="120" style="height:120px; vertical-align:top;"><![endif]-->
+            <td class="eqh" style="vertical-align:top;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td style="width:12px; padding-right:16px; vertical-align:top;">
+                    <img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-turq.png?version=0" width="12" style="display:block;border:0;padding-top:6px;" alt="">
+                  </td>
+                  <td style="vertical-align:top;">
+                    <div style="font-family:Arial, sans-serif; font-size:18px; line-height:140%; font-weight:400; color:#000; margin:0 0 16px 0;">
+                      Gain full visibility across on-prem and cloud
+                    </div>
+                    <div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%; color:#4D4D4D; margin:0;">
+                      See all your sensitive data in one unified platform, whether it’s on-prem, cloud, or hybrid.
+                    </div>
+                  </td>
+                </tr>
+              </table>
             </td>
-            <td style="vertical-align:top;">
-              <div style="font-family:Arial, sans-serif; font-size:18px; line-height:140%; font-weight:400; color:#000; margin:0 0 16px 0;">
-                Built-in frameworks for compliance
-              </div>
-              <div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%; color:#4D4D4D; margin:0;">
-                GDPR, CCPA, HIPAA and more. Automated reporting keeps you audit-ready.
-              </div>
-            </td>
+            <!--[if mso]></td><![endif]-->
           </tr>
-          <tr><td style="height:32px;"></td></tr>
         </mj-table>
+      </mj-column>
+
+      <mj-column width="50%" padding="0 0 0 8px" css-class="pt24-m">
+        <mj-table cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+            <!--[if mso]><td height="120" style="height:120px; vertical-align:top;"><![endif]-->
+            <td class="eqh" style="vertical-align:top;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td style="width:12px; padding-right:16px; vertical-align:top;">
+                    <img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-orange.png?version=0" width="12" style="display:block;border:0;padding-top:6px;" alt="orange dot">
+                  </td>
+                  <td style="vertical-align:top;">
+                    <div style="font-family:Arial, sans-serif; font-size:18px; line-height:140%; font-weight:400; color:#000; margin:0 0 16px 0;">
+						Easily integrate with your stack                     </div>
+                    <div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%; color:#4D4D4D; margin:0;">
+                      Built-in frameworks for GDPR, CCPA, HIPAA, and more. Automated reporting keeps you audit-ready without the administrative burden.
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <!--[if mso]></td><![endif]-->
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FCFAF5" padding="40px 30px 32px 30px" css-class="pt0-m">
+      <mj-column width="50%" padding="0 8px 0 0">
+        <mj-table cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+            <!--[if mso]><td height="120" style="height:120px; vertical-align:top;"><![endif]-->
+            <td class="eqh" style="vertical-align:top;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td style="width:12px; padding-right:16px; vertical-align:top;">
+                    <img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-red.png?version=0" width="12" style="display:block;border:0;padding-top:6px;" alt="">
+                  </td>
+                  <td style="vertical-align:top;">
+                    <div style="font-family:Arial, sans-serif; font-size:18px; line-height:140%; font-weight:400; color:#000; margin:0 0 16px 0;">
+						Easily integrate with your stack                     </div>
+                    <div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%; color:#4D4D4D; margin:0;">
+                      Work seamlessly with your existing tools and security workflows thanks to easy integration with SEIM, DLP, and leading governance platforms.
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <!--[if mso]></td><![endif]-->
+          </tr>
+        </mj-table>
+      </mj-column>
+
+      <mj-column width="50%" padding="0 0 0 8px" css-class="pt24-m">
+        <mj-table cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+            <!--[if mso]><td height="120" style="height:120px; vertical-align:top;"><![endif]-->
+            <td class="eqh" style="vertical-align:top;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td style="width:12px; padding-right:16px; vertical-align:top;">
+                    <img src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-blue.png?version=0" width="12" style="display:block;border:0;padding-top:6px;" alt="blue dot">
+                  </td>
+                  <td style="vertical-align:top;">
+                    <div style="font-family:Arial, sans-serif; font-size:18px; line-height:140%; font-weight:400; color:#000; margin:0 0 16px 0;">
+						Cut costs without cutting corners                   </div>
+                    <div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%; color:#4D4D4D; margin:0;">
+                      Reduce expensive overheads with an all-in-one solution. Optimize spend while improving overall security and data protection. 
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <!--[if mso]></td><![endif]-->
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
 
 <!-- Data 1 col -->
     <mj-section background-color="#FCFAF5" padding="32px 30px 40px 30px">
