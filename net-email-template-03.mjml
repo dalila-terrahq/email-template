@@ -1,0 +1,2220 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-button font-family="Arial, sans-serif" font-size="16px" line-height="140%" font-weight="400" padding="0" inner-padding="6px 20px" border-radius="30px" />
+      <mj-text font-family="Arial, sans-serif" padding="0" />
+      <mj-section padding="0px" />
+      <mj-column padding="0px" />
+	  <mj-image padding="0px" />
+	  <mj-table padding="0px" />
+    </mj-attributes>
+
+	<mj-breakpoint width="480px" />
+	<mj-style>
+		@media only screen and (max-width:480px){
+
+		.pt24-m { padding-top: 24px !important; }
+  		.pt8-m  { padding-top:8px  !important; }
+		.pt0-m > table > tr > td, .pt0-m > table > tbody > tr > td { padding: 0 30px 32px !important; }
+		.stack-center .center-m table {
+			margin-left:auto !important;
+			margin-right:auto !important;
+		}
+
+		.stack-center .center-m td { text-align:center !important; }
+      	.stack-center .mj-column-per-70, .stack-center .mj-column-per-30 {
+    		width:100% !important;
+			max-width:100% !important;
+      	}
+    	.stack-center .mobile-no-padding > table > tr > td, .stack-center .mobile-no-padding > table > tbody > tr > td {
+			padding-left:0 !important;
+			padding-right:0 !important;
+		}
+      	.center-m { text-align:center !important; }
+      	.center-m img { display:block !important; margin:0 auto !important; }
+      	.btn-center-m table { margin:0 auto !important; }
+      	.btn-block-m table { width:100% !important; }
+
+		.tight-row .mj-column-px-60, .tight-row .mj-column-px-40, .tight-row .mj-column-px-120 {
+			width:100% !important;
+			max-width:100% !important;
+		}
+
+		.center-m table { margin-left:auto !important; margin-right:auto !important; }
+		.center-m td    { text-align:center !important; }
+		.center-m img   { display:block !important; margin:0 auto !important; }
+
+		.tight-row .no-pad > table > tr > td, .tight-row .no-pad > table > tbody > tr > td { padding:0 !important; }
+
+		.checks .pill{
+          display:block !important;
+          width:100% !important;
+          padding:0 0 12px 0 !important;
+        }
+        .checks .pill > table{ width:100% !important; }
+        .checks .text{ white-space:normal !important; }
+        .checks .hgap{ display:none !important; }
+		.checks .pill table[role="presentation"]{
+            display:block !important;
+            width:100% !important;
+            margin-bottom:12px !important;
+  		}
+  		.checks .pill table[role="presentation"]:last-of-type{
+    		margin-bottom:0 !important;
+		}
+		.event-meta td{ display:block !important; width:100% !important; }
+		.event-meta .meta-sep{ display:none !important; }
+		.event-meta .meta-right{ padding-top:4px !important; }
+
+		.speakers-wrap td.spk{ display:block !important; width:100% !important; }
+		.speakers-wrap td.spk.second{ padding-top:8px !important; }
+    }
+  	</mj-style>
+  </mj-head>
+
+
+  <mj-body width="600px">
+
+<!-- Banner -->
+    <mj-section padding="0">
+      <mj-column background-color="#5851DB" padding="8px 30px">
+        <mj-text
+          color="#FCFAF5"
+          font-size="16px"
+          line-height="140%"
+          font-weight="400"
+          align="center">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+ 
+<!-- Header white - button blue - logo -->
+    <mj-section background-color="#FCFAF5" padding="16px 30px" border-bottom="1px solid #000000" css-class="stack-center">
+		<mj-column width="70%" vertical-align="middle">
+			<mj-image
+			src="https://lp.netwrix.com/rs/130-MAN-089/images/net_logo_dark.png?version=0"
+			alt="netwrix logo"
+			width="120px"
+			align="left"               
+			css-class="center-m" />
+		</mj-column>
+		<mj-column width="30%" vertical-align="middle" css-class="pt24-m">
+			<mj-button
+			background-color="#5851DB"
+			color="#FCFAF5"
+			align="right"            
+			href="#"
+			css-class="btn-center-m" >
+			Button
+			</mj-button>
+		</mj-column>
+	</mj-section>
+
+    
+<!-- Header dark - button blue - logo -->
+    <mj-section background-color="#1A1536" padding="16px 30px" css-class="stack-center">
+    	<mj-column width="70%" vertical-align="middle">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/net_logo_light.png?version=0"
+				alt="netwrix logo"
+				align="left"
+				width="120px"
+				css-class="center-m" />
+      	</mj-column>
+
+		<mj-column width="30%" vertical-align="middle" css-class="pt24-m">
+			<mj-button
+				background-color="#5851DB"
+				color="#FCFAF5"
+				align="right"
+				href="#"
+				css-class="btn-center-m" >
+			Button
+			</mj-button>
+		</mj-column>
+    </mj-section>
+
+
+  <!-- Header white - button green - logo -->
+    <mj-section background-color="#FCFAF5" padding="16px 30px" border-bottom="1px solid #000000" css-class="stack-center">
+
+    	<mj-column width="70%" vertical-align="middle">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/net_logo_dark.png?version=0"
+				alt="netwrix logo"
+				align="left"
+				width="120px"
+				css-class="center-m" />
+      	</mj-column>
+
+		<mj-column width="30%" vertical-align="middle" css-class="pt24-m">
+			<mj-button
+				background-color="#41F27C"
+				color="#000000"
+				align="right"
+				href="#"
+				css-class="btn-center-m">
+			Button
+			</mj-button>
+		</mj-column>
+    </mj-section>	
+
+
+<!-- Header dark - button green - logo -->
+    <mj-section background-color="#1A1536" padding="16px 30px" css-class="stack-center">
+
+    	<mj-column width="70%" vertical-align="middle">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/net_logo_light.png?version=0"
+				alt="netwrix logo"
+				align="left"
+				width="120px"
+				css-class="center-m" />
+			</mj-image>
+      	</mj-column>
+
+		<mj-column width="30%" vertical-align="middle" css-class="pt24-m">
+			<mj-button
+				background-color="#41F27C"
+				color="#000000"
+				align="right"
+				href="#"
+				css-class="btn-center-m">
+			Button
+			</mj-button>
+		</mj-column>
+    </mj-section>
+
+
+<!-- Header white - button white - logo -->
+    <mj-section background-color="#FCFAF5" padding="16px 30px" border-bottom="1px solid #000000" css-class="stack-center">
+    	<mj-column width="70%" vertical-align="middle">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/net_logo_dark.png?version=0"
+				alt="netwrix logo"
+				align="left"
+				width="120px"
+				css-class="center-m" />
+      	</mj-column>
+
+		<mj-column width="30%" vertical-align="middle" css-class="pt24-m">
+			<mj-button
+				background-color="#FCFAF5"
+				border="1px solid #000000"
+				color="#000000"
+				align="right"
+				href="#"
+				css-class="btn-center-m">
+			Button
+			</mj-button>
+		</mj-column>
+    </mj-section>
+
+
+<!-- Header dark - button white - logo -->
+    <mj-section background-color="#1A1536" padding="16px 30px" css-class="stack-center">
+
+    	<mj-column width="70%" vertical-align="middle">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/net_logo_light.png?version=0"
+				alt="netwrix logo"
+				align="left"
+				width="120px"
+				css-class="center-m" />
+      	</mj-column>
+
+		<mj-column width="30%" vertical-align="middle" css-class="pt24-m">
+			<mj-button
+				background-color="#FCFAF5"
+				color="#000000"
+				align="right"
+				href="#"
+				css-class="btn-center-m">
+			Button
+			</mj-button>
+		</mj-column>
+    </mj-section>
+
+
+<!-- Header white - button blue - mark -->
+    <mj-section background-color="#FCFAF5" padding="16px 30px" border-bottom="1px solid #000000" css-class="stack-center">
+    	<mj-column width="70%" vertical-align="middle">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/net_mark_dark.png?version=0"
+				alt="netwrix mark"
+				align="left"
+				width="31px"
+				css-class="center-m" />
+      	</mj-column>
+
+		<mj-column width="30%" vertical-align="middle" css-class="pt24-m">
+			<mj-button
+				background-color="#5851DB"
+				color="#FCFAF5"
+				align="right"
+				href="#"
+				css-class="btn-center-m">
+			Button
+			</mj-button>
+		</mj-column>
+    </mj-section>
+
+    
+<!-- Header dark - button blue - mark -->
+    <mj-section background-color="#1A1536" padding="16px 30px" css-class="stack-center">
+    	<mj-column width="70%" vertical-align="middle">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/net_mark_light.png?version=0"
+				alt="netwrix mark"
+				align="left"
+				width="31px"
+				css-class="center-m" />
+      	</mj-column>
+
+		<mj-column width="30%" vertical-align="middle" css-class="pt24-m">
+			<mj-button
+				background-color="#5851DB"
+				color="#FCFAF5"
+				align="right"
+				href="#"
+				css-class="btn-center-m">
+			Button
+			</mj-button>
+		</mj-column>
+    </mj-section>
+
+
+
+  <!-- Header white - button green - mark -->
+    <mj-section background-color="#FCFAF5" padding="16px 30px" border-bottom="1px solid #000000" css-class="stack-center">
+
+    	<mj-column width="70%" vertical-align="middle">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/net_mark_dark.png?version=0"
+				alt="netwrix mark"
+				align="left"
+				width="31px"
+				css-class="center-m" />
+      	</mj-column>
+
+		<mj-column width="30%" vertical-align="middle" css-class="pt24-m">
+			<mj-button
+				background-color="#41F27C"
+				color="#000000"
+				align="right"
+				href="#"
+				css-class="btn-center-m">
+			Button
+			</mj-button>
+		</mj-column>
+    </mj-section>
+
+
+<!-- Header dark - button green - mark -->
+    <mj-section background-color="#1A1536" padding="16px 30px" css-class="stack-center">
+
+    	<mj-column width="70%" vertical-align="middle">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/net_mark_light.png?version=0"
+				alt="netwrix mark"
+				align="left"
+				width="31px"
+				css-class="center-m" />
+      	</mj-column>
+
+		<mj-column width="30%" vertical-align="middle" css-class="pt24-m">
+			<mj-button
+				background-color="#41F27C"
+				color="#000000"
+				align="right"
+				href="#"
+				css-class="btn-center-m">
+			Button
+			</mj-button>
+		</mj-column>
+    </mj-section>
+
+
+<!-- Header white - button white - mark -->
+    <mj-section background-color="#FCFAF5" padding="16px 30px" border-bottom="1px solid #000000" css-class="stack-center">
+    	<mj-column width="70%" vertical-align="middle">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/net_mark_dark.png?version=0"
+				alt="netwrix mark"
+				align="left"
+				width="31px"
+				css-class="center-m" />
+      	</mj-column>
+
+		<mj-column width="30%" vertical-align="middle" css-class="pt24-m">
+			<mj-button
+				background-color="#FCFAF5"
+				border="1px solid #000000"
+				color="#000000"
+				align="right"
+				href="#"
+				css-class="btn-center-m">
+			Button
+			</mj-button>
+		</mj-column>
+    </mj-section>
+
+
+<!-- Header dark - button white - mark -->
+    <mj-section background-color="#1A1536" padding="16px 30px" css-class="stack-center">
+
+    	<mj-column width="70%" vertical-align="middle">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/net_mark_light.png?version=0"
+				alt="netwrix mark"
+				align="left"
+				width="31px"
+				css-class="center-m" />
+      	</mj-column>
+
+		<mj-column width="30%" vertical-align="middle" css-class="pt24-m">
+			<mj-button
+				background-color="#FCFAF5"
+				color="#000000"
+				align="right"
+				href="#"
+				css-class="btn-center-m">
+			Button
+			</mj-button>
+		</mj-column>
+    </mj-section>
+
+
+<!-- Header white - logo -->
+    <mj-section background-color="#FCFAF5" padding="16px 30px" border-bottom="1px solid #000000">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/net_logo_dark.png?version=0"
+				alt="netwrix logo"
+				align="center"
+				width="120px"
+				padding="16px">
+			</mj-image>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Header dark - logo -->
+    <mj-section background-color="#1A1536" padding="16px 30px">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/net_logo_light.png?version=0"
+				alt="netwrix logo"
+				align="center"
+				width="120px"
+				padding="16px">
+			</mj-image>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Header white - mark -->
+    <mj-section background-color="#FCFAF5" padding="16px 30px" border-bottom="1px solid #000000">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/net_mark_dark.png?version=0"
+				alt="netwrix mark"
+				align="center"
+				width="31px"
+				padding="16px">
+			</mj-image>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Header dark - mark -->
+    <mj-section background-color="#1A1536" padding="16px 30px">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/net_mark_light.png?version=0"
+				alt="netwrix mark"
+				align="center"
+				width="31px"
+				padding="16px">
+			</mj-image>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Heading left - bg light -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-text
+				align="left"
+				color="#000000"
+				font-size="28px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%">
+			This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+      	</mj-column>
+    </mj-section>
+
+<!-- Heading left - bg dark -->
+    <mj-section background-color="#1A1536" padding="32px 30px">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-text
+				align="left"
+				color="#FCFAF5"
+				font-size="28px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%">
+			This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+      	</mj-column>
+    </mj-section>
+
+<!-- Heading center - bg light -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px">
+    	<mj-column width="90%" vertical-align="middle">
+			<mj-text
+				align="center"
+				color="#000000"
+				font-size="28px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%">
+			This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+      	</mj-column>
+    </mj-section>
+
+<!-- Heading center - bg dark -->
+    <mj-section background-color="#1A1536" padding="32px 30px">
+    	<mj-column width="90%" vertical-align="middle">
+			<mj-text
+				align="center"
+				color="#FCFAF5"
+				font-size="28px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%">
+			This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Heading + text - bg light -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-text
+				align="left"
+				color="#000000"
+				font-size="28px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%"
+				padding="0 0 16px 0">
+			This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+			<mj-text
+				align="left"
+				color="#4D4D4D"
+				font-size="14px"
+				font-style="normal"
+				font-weight="400"
+				line-height="130%">
+			This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. Sit odio in eget at ultrices fames. Convallis tristique aliquet cursus et in aliquet ipsum aenean. Mi hendrerit ipsum nunc quam donec ut arcu dui cras.
+			<br/><br/>
+			Lectus quam metus vehicula viverra. Aenean in convallis cursus fermentum diam magna commodo sapien mauris. Nunc arcu sed mi donec. Ultrices risus in quam elit eget elementum. Faucibus dui at condimentum suspendisse nunc tristique maecenas tortor cras. Duis sed vulputate urna vel. Elementum ullamcorper lectus neque enim.
+			</mj-text>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Heading + text - bg dark -->
+    <mj-section background-color="#1A1536" padding="32px 30px">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-text
+				align="left"
+				color="#FCFAF5"
+				font-size="28px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%"
+				padding="0 0 16px 0">
+			This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+			<mj-text
+				align="left"
+				color="#FCFAF5"
+				font-size="14px"
+				font-style="normal"
+				font-weight="400"
+				line-height="130%">
+			This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. Sit odio in eget at ultrices fames. Convallis tristique aliquet cursus et in aliquet ipsum aenean. Mi hendrerit ipsum nunc quam donec ut arcu dui cras.
+			<br/><br/>
+			Lectus quam metus vehicula viverra. Aenean in convallis cursus fermentum diam magna commodo sapien mauris. Nunc arcu sed mi donec. Ultrices risus in quam elit eget elementum. Faucibus dui at condimentum suspendisse nunc tristique maecenas tortor cras. Duis sed vulputate urna vel. Elementum ullamcorper lectus neque enim.
+			</mj-text>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Heading + text + button - bg light -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-text
+				align="left"
+				color="#000000"
+				font-size="28px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%"
+				padding="0 0 16px 0">
+					This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+			<mj-text
+				align="left"
+				color="#4D4D4D"
+				font-size="14px"
+				font-style="normal"
+				font-weight="400"
+				line-height="130%"
+				padding-bottom="24px">
+					This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. Sit odio in eget at ultrices fames. Convallis tristique aliquet cursus et in aliquet ipsum aenean. Mi hendrerit ipsum nunc quam donec ut arcu dui cras.
+					<br/><br/>
+					Lectus quam metus vehicula viverra. Aenean in convallis cursus fermentum diam magna commodo sapien mauris. Nunc arcu sed mi donec. Ultrices risus in quam elit eget elementum. Faucibus dui at condimentum suspendisse nunc tristique maecenas tortor cras. Duis sed vulputate urna vel. Elementum ullamcorper lectus neque enim.
+			</mj-text>
+			<mj-button
+				background-color="#5851DB"
+				color="#FCFAF5"
+				align="left"
+				href="#">
+			Button
+			</mj-button>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Heading + text + button - bg dark -->
+    <mj-section background-color="#1A1536" padding="32px 30px">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-text
+				align="left"
+				color="#FCFAF5"
+				font-size="28px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%"
+				padding="0 0 16px 0">
+					This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+			<mj-text
+				align="left"
+				color="#FCFAF5"
+				font-size="14px"
+				font-style="normal"
+				font-weight="400"
+				line-height="130%"
+				padding-bottom="24px">
+					This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. Sit odio in eget at ultrices fames. Convallis tristique aliquet cursus et in aliquet ipsum aenean. Mi hendrerit ipsum nunc quam donec ut arcu dui cras.
+					<br/><br/>
+					Lectus quam metus vehicula viverra. Aenean in convallis cursus fermentum diam magna commodo sapien mauris. Nunc arcu sed mi donec. Ultrices risus in quam elit eget elementum. Faucibus dui at condimentum suspendisse nunc tristique maecenas tortor cras. Duis sed vulputate urna vel. Elementum ullamcorper lectus neque enim.
+			</mj-text>
+			<mj-button
+				background-color="#41F27C"
+				color="#000000"
+				align="left"
+				href="#">
+					Button
+			</mj-button>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Heading + text + button + img - bg light -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-text
+				align="left"
+				color="#000000"
+				font-size="28px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%"
+				padding="0 0 16px 0">
+					This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+			<mj-text
+				align="left"
+				color="#4D4D4D"
+				font-size="14px"
+				font-style="normal"
+				font-weight="400"
+				line-height="130%"
+				padding-bottom="24px">
+					This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. Sit odio in eget at ultrices fames. Convallis tristique aliquet cursus et in aliquet ipsum aenean. Mi hendrerit ipsum nunc quam donec ut arcu dui cras.
+					<br/><br/>
+					Lectus quam metus vehicula viverra. Aenean in convallis cursus fermentum diam magna commodo sapien mauris. Nunc arcu sed mi donec. Ultrices risus in quam elit eget elementum. Faucibus dui at condimentum suspendisse nunc tristique maecenas tortor cras. Duis sed vulputate urna vel. Elementum ullamcorper lectus neque enim.
+			</mj-text>
+			<mj-button
+				background-color="#5851DB"
+				color="#FCFAF5"
+				align="left"
+				href="#">
+					Button
+			</mj-button>
+			<mj-image src="http://placeholder.terrahq.com/img-16by9.webp"
+				alt="placeholder"
+				align="center"
+				padding-top="24px">
+			</mj-image>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Heading + text + button + img - bg dark -->
+    <mj-section background-color="#1A1536" padding="32px 30px">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-text
+				align="left"
+				color="#FCFAF5"
+				font-size="28px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%"
+				padding="0 0 16px 0">
+					This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+			<mj-text
+				align="left"
+				color="#FCFAF5"
+				font-size="14px"
+				font-style="normal"
+				font-weight="400"
+				line-height="130%"
+				padding-bottom="24px">
+					This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. Sit odio in eget at ultrices fames. Convallis tristique aliquet cursus et in aliquet ipsum aenean. Mi hendrerit ipsum nunc quam donec ut arcu dui cras.
+					<br/><br/>
+					Lectus quam metus vehicula viverra. Aenean in convallis cursus fermentum diam magna commodo sapien mauris. Nunc arcu sed mi donec. Ultrices risus in quam elit eget elementum. Faucibus dui at condimentum suspendisse nunc tristique maecenas tortor cras. Duis sed vulputate urna vel. Elementum ullamcorper lectus neque enim.
+			</mj-text>
+			<mj-button
+				background-color="#41F27C"
+				color="#000000"
+				align="left"
+				href="#">
+					Button
+			</mj-button>
+			<mj-image src="http://placeholder.terrahq.com/img-16by9.webp"
+				alt="placeholder"
+				align="center"
+				padding-top="24px">
+			</mj-image>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Heading + text + img - bg light -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-text
+				align="left"
+				color="#000000"
+				font-size="28px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%"
+				padding="0 0 16px 0">
+					This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+			<mj-text
+				align="left"
+				color="#4D4D4D"
+				font-size="14px"
+				font-style="normal"
+				font-weight="400"
+				line-height="130%"
+				padding-bottom="24px">
+					This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. Sit odio in eget at ultrices fames. Convallis tristique aliquet cursus et in aliquet ipsum aenean. Mi hendrerit ipsum nunc quam donec ut arcu dui cras.
+					<br/><br/>
+					Lectus quam metus vehicula viverra. Aenean in convallis cursus fermentum diam magna commodo sapien mauris. Nunc arcu sed mi donec. Ultrices risus in quam elit eget elementum. Faucibus dui at condimentum suspendisse nunc tristique maecenas tortor cras. Duis sed vulputate urna vel. Elementum ullamcorper lectus neque enim.
+			</mj-text>
+			<mj-image src="http://placeholder.terrahq.com/img-16by9.webp"
+				alt="placeholder"
+				align="center">
+			</mj-image>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Heading + text + img - bg dark -->
+    <mj-section background-color="#1A1536" padding="32px 30px">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-text
+				align="left"
+				color="#FCFAF5"
+				font-size="28px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%"
+				padding="0 0 16px 0">
+					This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+			<mj-text
+				align="left"
+				color="#FCFAF5"
+				font-size="14px"
+				font-style="normal"
+				font-weight="400"
+				line-height="130%"
+				padding-bottom="24px">
+					This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. Sit odio in eget at ultrices fames. Convallis tristique aliquet cursus et in aliquet ipsum aenean. Mi hendrerit ipsum nunc quam donec ut arcu dui cras.
+					<br/><br/>
+					Lectus quam metus vehicula viverra. Aenean in convallis cursus fermentum diam magna commodo sapien mauris. Nunc arcu sed mi donec. Ultrices risus in quam elit eget elementum. Faucibus dui at condimentum suspendisse nunc tristique maecenas tortor cras. Duis sed vulputate urna vel. Elementum ullamcorper lectus neque enim.
+			</mj-text>
+			<mj-image src="http://placeholder.terrahq.com/img-16by9.webp"
+				alt="placeholder"
+				align="center">
+			</mj-image>
+      	</mj-column>
+    </mj-section>
+
+
+<!--2 COLS - Heading + text + button || img - bg light -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px">
+    	<mj-column width="50%" vertical-align="middle" padding-right="16px">
+			<mj-text
+				align="left"
+				color="#000000"
+				font-size="22px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%"
+				padding-bottom="16px">
+					This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+			<mj-text
+				align="left"
+				color="#4D4D4D"
+				font-size="14px"
+				font-style="normal"
+				font-weight="400"
+				line-height="130%"
+				padding-bottom="16px">
+					This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. Sit odio in eget at ultrices fames. Convallis tristique aliquet cursus et in aliquet ipsum aenean. Mi hendrerit ipsum nunc quam donec ut arcu dui cras.
+			</mj-text>
+			<mj-button
+				background-color="#5851DB"
+				color="#FCFAF5"
+				align="left"
+				href="#">
+					Button
+			</mj-button>
+    </mj-column>
+    <mj-column width="50%" vertical-align="middle">
+        <mj-image src="http://placeholder.terrahq.com/img-1by1.webp"
+          alt="placeholder"
+          align="center"
+          css-class="pt24-m">
+        </mj-image>
+     </mj-column>
+    </mj-section>
+
+
+<!-- 2 COLS - Heading + text + button || img - bg dark -->
+    <mj-section background-color="#1A1536" padding="32px 30px">
+    	<mj-column width="50%" vertical-align="middle" padding-right="16px">
+			<mj-text
+				align="left"
+				color="#FCFAF5"
+				font-size="22px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%"
+				padding-bottom="16px">
+					This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+			<mj-text
+				align="left"
+				color="#FCFAF5"
+				font-size="14px"
+				font-style="normal"
+				font-weight="400"
+				line-height="130%"
+				padding-bottom="16px">
+					This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. Sit odio in eget at ultrices fames. Convallis tristique aliquet cursus et in aliquet ipsum aenean. Mi hendrerit ipsum nunc quam donec ut arcu dui cras.
+			</mj-text>
+			<mj-button
+				background-color="#41F27C"
+				color="#000000"
+				align="left"
+				href="#">
+					Button
+			</mj-button>
+     </mj-column>
+    <mj-column width="50%" vertical-align="middle">
+        <mj-image src="http://placeholder.terrahq.com/img-1by1.webp"
+          alt="placeholder"
+          align="center"
+          css-class="pt24-m">
+        </mj-image>
+     </mj-column>
+    </mj-section>
+
+
+<!--2 COLS - Heading + text || img - bg light -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px">
+    	<mj-column width="50%" vertical-align="middle" padding-right="16px">
+			<mj-text
+				align="left"
+				color="#000000"
+				font-size="22px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%"
+				padding-bottom="16px">
+					This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+			<mj-text
+				align="left"
+				color="#4D4D4D"
+				font-size="14px"
+				font-style="normal"
+				font-weight="400"
+				line-height="130%"
+				padding-bottom="16px">
+					This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. Sit odio in eget at ultrices fames. Convallis tristique aliquet cursus et in aliquet ipsum aenean. Mi hendrerit ipsum nunc quam donec ut arcu dui cras.
+			</mj-text>
+		</mj-column>
+		<mj-column width="50%" vertical-align="middle">
+			<mj-image src="http://placeholder.terrahq.com/img-1by1.webp"
+			alt="placeholder"
+			align="center">
+			</mj-image>
+		</mj-column>
+    </mj-section>
+
+
+<!-- 2 COLS - Heading + text || img - bg dark -->
+    <mj-section background-color="#1A1536" padding="32px 30px">
+    	<mj-column width="50%" vertical-align="middle" padding-right="16px">
+			<mj-text
+				align="left"
+				color="#FCFAF5"
+				font-size="22px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%"
+				padding-bottom="16px">
+					This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+			<mj-text
+				align="left"
+				color="#FCFAF5"
+				font-size="14px"
+				font-style="normal"
+				font-weight="400"
+				line-height="130%"
+				padding-bottom="16px">
+					This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. Sit odio in eget at ultrices fames. Convallis tristique aliquet cursus et in aliquet ipsum aenean. Mi hendrerit ipsum nunc quam donec ut arcu dui cras.
+			</mj-text>
+    	</mj-column>
+		<mj-column width="50%" vertical-align="middle">
+			<mj-image src="http://placeholder.terrahq.com/img-1by1.webp"
+			alt="placeholder"
+			align="center">
+			</mj-image>
+		</mj-column>
+    </mj-section>
+
+
+<!--2 COLS - img || Heading + text + button - bg light -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px">
+     <mj-column width="50%" vertical-align="middle" padding-right="16px">
+        <mj-image src="http://placeholder.terrahq.com/img-1by1.webp"
+          alt="placeholder"
+          align="center">
+        </mj-image>
+     </mj-column>
+    	<mj-column width="50%" vertical-align="middle" >
+			<mj-text
+				align="left"
+				color="#000000"
+				font-size="22px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%"
+				padding-bottom="16px"
+        css-class="pt24-m">
+					This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+			<mj-text
+				align="left"
+				color="#4D4D4D"
+				font-size="14px"
+				font-style="normal"
+				font-weight="400"
+				line-height="130%"
+				padding-bottom="16px">
+					This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. Sit odio in eget at ultrices fames. Convallis tristique aliquet cursus et in aliquet ipsum aenean. Mi hendrerit ipsum nunc quam donec ut arcu dui cras.
+			</mj-text>
+			<mj-button
+				background-color="#5851DB"
+				color="#FCFAF5"
+				align="left"
+				href="#">
+					Button
+			</mj-button>
+    	</mj-column>
+    </mj-section>
+
+
+<!-- 2 COLS - img || Heading + text + button - bg dark -->
+    <mj-section background-color="#1A1536" padding="32px 30px">
+          <mj-column width="50%" vertical-align="middle" padding-right="16px">
+        <mj-image src="http://placeholder.terrahq.com/img-1by1.webp"
+          alt="placeholder"
+          align="center">
+        </mj-image>
+     </mj-column>
+    	<mj-column width="50%" vertical-align="middle">
+			<mj-text
+				align="left"
+				color="#FCFAF5"
+				font-size="22px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%"
+				padding-bottom="16px"
+        css-class="pt24-m">
+					This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+			<mj-text
+				align="left"
+				color="#FCFAF5"
+				font-size="14px"
+				font-style="normal"
+				font-weight="400"
+				line-height="130%"
+				padding-bottom="16px">
+					This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. Sit odio in eget at ultrices fames. Convallis tristique aliquet cursus et in aliquet ipsum aenean. Mi hendrerit ipsum nunc quam donec ut arcu dui cras.
+			</mj-text>
+			<mj-button
+				background-color="#41F27C"
+				color="#000000"
+				align="left"
+				href="#">
+					Button
+			</mj-button>
+     	</mj-column>
+    </mj-section>
+
+
+<!--2 COLS - img || Heading + text - bg light -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px">
+     <mj-column width="50%" vertical-align="middle" padding-right="16px">
+        <mj-image src="http://placeholder.terrahq.com/img-1by1.webp"
+          alt="placeholder"
+          align="center">
+        </mj-image>
+     </mj-column>
+    	<mj-column width="50%" vertical-align="middle" >
+			<mj-text
+				align="left"
+				color="#000000"
+				font-size="22px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%"
+				padding-bottom="16px"
+        css-class="pt24-m">
+					This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+			<mj-text
+				align="left"
+				color="#4D4D4D"
+				font-size="14px"
+				font-style="normal"
+				font-weight="400"
+				line-height="130%"
+				padding-bottom="16px">
+					This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. Sit odio in eget at ultrices fames. Convallis tristique aliquet cursus et in aliquet ipsum aenean. Mi hendrerit ipsum nunc quam donec ut arcu dui cras.
+			</mj-text>
+    	</mj-column>
+    </mj-section>
+
+
+<!-- 2 COLS - img || Heading + text - bg dark -->
+    <mj-section background-color="#1A1536" padding="32px 30px">
+          <mj-column width="50%" vertical-align="middle" padding-right="16px">
+        <mj-image src="http://placeholder.terrahq.com/img-1by1.webp"
+          alt="placeholder"
+          align="center">
+        </mj-image>
+     </mj-column>
+    	<mj-column width="50%" vertical-align="middle">
+			<mj-text
+				align="left"
+				color="#FCFAF5"
+				font-size="22px"
+				font-style="normal"
+				font-weight="700"
+				line-height="110%"
+				padding-bottom="16px"
+        css-class="pt24-m">
+					This is a heading lorem ipsum dolor sit amet	
+			</mj-text>
+			<mj-text
+				align="left"
+				color="#FCFAF5"
+				font-size="14px"
+				font-style="normal"
+				font-weight="400"
+				line-height="130%"
+				padding-bottom="16px">
+					This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. Sit odio in eget at ultrices fames. Convallis tristique aliquet cursus et in aliquet ipsum aenean. Mi hendrerit ipsum nunc quam donec ut arcu dui cras.
+			</mj-text>
+     	</mj-column>
+    </mj-section>
+
+
+<!-- Image bg light -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-image src="http://placeholder.terrahq.com/img-16by9.webp"
+				alt="placeholder"
+				align="center">
+			</mj-image>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Image bg dark -->
+    <mj-section background-color="#1A1536" padding="32px 30px">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-image src="http://placeholder.terrahq.com/img-16by9.webp"
+				alt="placeholder"
+				align="center">
+			</mj-image>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Button bg light -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-button
+				background-color="#5851DB"
+				color="#FCFAF5"
+				align="center"
+				href="#">
+			Button
+			</mj-button>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Button bg dark -->
+    <mj-section background-color="#1A1536" padding="32px 30px">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-button
+				background-color="#41F27C"
+				color="#000000"
+				align="center"
+				href="#">
+			Button
+			</mj-button>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- 2 Buttons bg light -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px" css-class="stack-center">
+    	<mj-column width="50%" vertical-align="middle" padding-right="8px" css-class="mobile-no-padding">
+			<mj-button
+				background-color="#5851DB"
+				color="#FCFAF5"
+				align="right"
+				href="#"
+				css-class="btn-center-m">
+			Button
+			</mj-button>
+      	</mj-column>
+		<mj-column width="50%" vertical-align="middle" padding-left="8px" css-class="mobile-no-padding pt24-m">
+			<mj-button
+				background-color="#FCFAF5"
+				border="1px solid #000000"
+				color="#000000"
+				align="left"
+				href="#"
+				css-class="btn-center-m">
+			Button
+			</mj-button>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- 2 Buttons bg dark -->
+    <mj-section background-color="#1A1536" padding="32px 30px" css-class="stack-center">
+    	<mj-column width="50%" vertical-align="middle" padding-right="8px" css-class="mobile-no-padding">
+			<mj-button
+				background-color="#41F27C"
+				color="#000000"
+				align="right"
+				href="#"
+				css-class="btn-center-m">
+			Button
+			</mj-button>
+      	</mj-column>
+		<mj-column width="50%" vertical-align="middle" padding-left="8px" css-class="mobile-no-padding pt24-m">
+			<mj-button
+				background-color="#FCFAF5"
+				color="#000000"
+				align="left"
+				href="#"
+				css-class="btn-center-m">
+			Button
+			</mj-button>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Data row - TODO-->
+    <mj-section background-color="#FCFAF5" padding="32px 30px">
+    	<mj-column width="50%" vertical-align="middle" padding-right="8px">
+			<mj-text>
+			TO DO - data row
+			</mj-text>
+      	</mj-column>
+    </mj-section>
+
+<!-- Data 2 cols - TODO-->
+    <mj-section background-color="#FCFAF5" padding="32px 30px">
+    	<mj-column width="50%" vertical-align="middle" padding-right="8px">
+			<mj-text>
+			TO DO - data 2 cols
+			</mj-text>
+      	</mj-column>
+    </mj-section>
+
+<!-- Data 1 col - TODO -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px">
+		<mj-column width="10%" vertical-align="middle" padding-right="16px">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/rect-green.png?version=0" alt="green dot" width="12px"></mj-image>
+		</mj-column>
+    	<mj-column width="90%" vertical-align="middle">
+			<mj-text color="#000000" font-size="18px" line-height="140%" font-weight="400">
+				Protect your most sensitive data
+			</mj-text>
+			<mj-text color="#4D4D4D" font-size="14px" line-height="140%" font-weight="400">
+				Classify and prioritize business-critical information with ease. Focus your protection efforts on the data that matters most. 
+			</mj-text>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Stats - bg light -->
+    <!-- heading -->
+	<mj-section background-color="#FCFAF5" padding="32px 30px 16px 30px">
+		<mj-column width="100%" vertical-align="middle">
+			<mj-text font-size="12px" color="#5851DB" font-weight="400" line-height="140%">
+				Small heading
+			</mj-text>
+			<mj-text padding-top="16px" font-size="24px" font-weight="400" line-height="125%" color="#000000">
+				Our numbers speak for themselves. 
+			</mj-text>
+		</mj-column>
+	</mj-section>
+
+	<!-- stats in 1 col -->
+	<mj-section background-color="#FCFAF5" padding="0px 30px 0px 30px">
+		<mj-column width="100%" border-bottom="1px solid #000000" padding="24px">
+			<mj-text font-size="40px" font-weight="400" line-height="120%" color="#5851DB" padding-bottom="8px">
+				74%
+			</mj-text>
+			<mj-text color="#4D4D4D" font-size="18px" font-weight="400" line-height="140%" padding="0">
+				of incidents are caused by insider threat" - Data Breach Investigations Report 2025
+			</mj-text>
+		</mj-column>
+	</mj-section>
+
+	<!-- stats in 2 col -->
+	<mj-section background-color="#FCFAF5" padding="0px 30px 32px 30px">
+		<mj-column width="262px" border-bottom="1px solid #000000" padding="40px 24px 24px 24px">
+			<mj-text font-size="40px" font-weight="400" line-height="120%" color="#5851DB" padding-bottom="8px">
+				74%
+			</mj-text>
+			<mj-text color="#4D4D4D" font-size="18px" font-weight="400" line-height="140%" padding="0">
+				of incidents are caused by insider threat" - Data Breach Investigations Report 2025
+			</mj-text>
+		</mj-column>
+		<mj-column width="16px">
+		</mj-column>
+		<mj-column width="262px" border-bottom="1px solid #000000" padding="40px 24px 24px 24px">
+			<mj-text font-size="40px" font-weight="400" line-height="120%" color="#5851DB" padding-bottom="8px">
+				74%
+			</mj-text>
+			<mj-text color="#4D4D4D" font-size="18px" font-weight="400" line-height="140%" padding="0">
+				of incidents are caused by insider threat" - Data Breach Investigations Report 2025
+			</mj-text>
+		</mj-column>
+	</mj-section>
+
+
+<!-- Review recap -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px 0px 30px">
+    	<mj-column width="100%" vertical-align="middle">
+        <mj-text font-size="12px" color="#5851DB" font-weight="400" line-height="140%" align="center">
+          Trusted by the experts
+        </mj-text>
+        <mj-text padding="16px 0 32px 0" font-size="28px" font-weight="400" line-height="125%" color="#1A1536" align="center">
+					Don’t just take our word for it.
+        </mj-text>
+      	</mj-column>
+    </mj-section>
+    
+	<mj-section background-color="#FCFAF5" padding="0 30px 40px 30px" css-class="tight-row">
+		<mj-column width="60px" padding="0" css-class="no-pad">
+			<mj-image
+			src="https://lp.netwrix.com/rs/130-MAN-089/images/review-logo?version=0"
+			alt="review logo"
+			width="52px"
+			align="right"         
+			padding="0"
+			css-class="center-m"
+			/>
+		</mj-column>
+
+		<mj-column width="40px" padding="0" css-class="pt8-m">
+			<mj-text
+			align="center"
+			font-size="18px"
+			color="#4D4D4D"
+			font-weight="600"
+			line-height="150%"
+			letter-spacing="-0.36px"
+			padding="0"
+			css-class="center-m">
+			4.7
+			</mj-text>
+		</mj-column>
+
+		<mj-column width="120px" padding="0" css-class="pt8-m">
+			<mj-image
+			src="https://lp.netwrix.com/rs/130-MAN-089/images/5stars.png?version=0"
+			alt="review stars"
+			width="108px"
+			align="left"
+			padding="0"
+			css-class="center-m"
+			/>
+		</mj-column>
+	</mj-section>
+
+
+<!-- Review -  -->
+    <mj-section background-color="#FCFAF5" padding="0 30px">
+    	<mj-column width="100%" vertical-align="middle" padding="40px 32px 32px 32px" border="1px solid #000000">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/5stars.png?version=0" alt="star review" width="108px" align="left">
+			</mj-image>
+			
+			<mj-text padding="32px 0 56px 0" color="#1A1536" font-size="15px" font-weight="400" line-height="140%">
+			Lorem ipsum dolor sit amet consectetur. Etiam lectus pretium nisl volutpat urna. Id orci neque sit eget morbi sed in suspendisse. In lectus pellentesque neque molestie vulputate venenatis velit.
+			</mj-text>
+			<mj-text color="#1A1536" font-size="18px" font-weight="400" line-height="140%">
+			John Doe
+			</mj-text>
+			<mj-text color="#4D4D4D" font-size="16px" font-weight="400" line-height="140%">
+			Job Position, Company
+			</mj-text>
+      	</mj-column>
+		<mj-column width="100%" padding="16px 30px">
+		</mj-column>
+
+	    <mj-column width="100%" vertical-align="middle" padding="40px 32px 32px 32px" border="1px solid #000000">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/5stars.png?version=0" alt="star review" width="108px" align="left">
+			</mj-image>
+			
+			<mj-text padding="32px 0 56px 0" color="#1A1536" font-size="15px" font-weight="400" line-height="140%">
+			Lorem ipsum dolor sit amet consectetur. Etiam lectus pretium nisl volutpat urna. Id orci neque sit eget morbi sed in suspendisse. In lectus pellentesque neque molestie vulputate venenatis velit.
+			</mj-text>
+			<mj-text color="#1A1536" font-size="18px" font-weight="400" line-height="140%">
+			John Doe
+			</mj-text>
+			<mj-text color="#4D4D4D" font-size="16px" font-weight="400" line-height="140%">
+			Job Position, Company
+			</mj-text>
+      </mj-column>
+    </mj-section>
+
+
+<!-- Button review bg light -->
+    <mj-section background-color="#FCFAF5" padding="40px 64px">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-button
+				background-color="#5851DB"
+				color="#FCFAF5"
+				align="center"
+				href="#">
+			See all customers stories
+			</mj-button>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Stats - bg dark -->
+    <!-- heading -->
+	<mj-section background-color="#1A1536" padding="32px 30px 16px 30px">
+		<mj-column width="100%" vertical-align="middle">
+			<mj-text font-size="12px" color="#41F27C" font-weight="400" line-height="140%">
+				Small heading
+			</mj-text>
+			<mj-text padding-top="16px" font-size="24px" font-weight="400" line-height="125%" color="#FCFAF5">
+				Our numbers speak for themselves. 
+			</mj-text>
+		</mj-column>
+	</mj-section>
+
+	<!-- stats in 2 col -->
+	<mj-section padding="0px 30px 32px 30px" background-color="#1A1536">
+		<mj-column width="262px" border-bottom="1px solid #FCFAF5" padding="40px 24px 24px 24px">
+			<mj-text font-size="40px" font-weight="400" line-height="120%" color="#41F27C" padding-bottom="8px">
+				14k+
+			</mj-text>
+			<mj-text color="#FCFAF5" font-size="18px" font-weight="400" line-height="140%" padding="0">
+				organizations turn to us for their security needs.
+			</mj-text>
+		</mj-column>
+		<mj-column width="16px">
+		</mj-column>
+		<mj-column width="262px" border-bottom="1px solid #FCFAF5" padding="40px 24px 24px 24px">
+			<mj-text font-size="40px" font-weight="400" line-height="120%" color="#41F27C" padding-bottom="8px">
+				14k+
+			</mj-text>
+			<mj-text color="#FCFAF5" font-size="18px" font-weight="400" line-height="140%" padding="0">
+				organizations turn to us for their security needs.
+			</mj-text>
+		</mj-column>
+	</mj-section>
+
+
+<!-- Heading + text + link - 2 cols - bg light  -->
+	<mj-section padding="32px 30px 32px 30px" background-color="#FCFAF5">
+		<mj-column width="262px" border="1px solid #000000" padding="32px 24px 32px 24px" background-color="#FCFAF5">
+			<mj-text font-size="20px" font-weight="400" line-height="125%" color="#000000" padding-bottom="16px">
+				Identity Management
+			</mj-text>
+			<mj-text color="#4D4D4D" font-size="14px" font-weight="400" line-height="130%">
+				Solution description lorem ipsum dolor sit amet consectetur. Sed pulvinar odio velit fermentum etiam consectetur pretium fringilla metus.
+			</mj-text>
+      <mj-text font-size="12px" color="#5851DB" font-weight="400" line-height="140%" text-decoration="underline" padding-top="16px">
+        <a href="#" target="_blank" style="color:#5851DB">
+          Learn More
+        </a>
+			</mj-text>
+		</mj-column>
+    
+		<mj-column width="16px">
+		</mj-column>
+				<mj-column width="262px" border="1px solid #000000" padding="32px 24px 32px 24px" background-color="#FCFAF5">
+			<mj-text font-size="20px" font-weight="400" line-height="125%" color="#000000" padding-bottom="16px">
+				Identity Management
+			</mj-text>
+			<mj-text color="#4D4D4D" font-size="14px" font-weight="400" line-height="130%">
+				Solution description lorem ipsum dolor sit amet consectetur. Sed pulvinar odio velit fermentum etiam consectetur pretium fringilla metus.
+			</mj-text>
+      <mj-text font-size="12px" color="#5851DB" font-weight="400" line-height="140%" text-decoration="underline" padding-top="16px">
+        <a href="#" target="_blank" style="color:#5851DB">
+          Learn More
+        </a>
+			</mj-text>
+		</mj-column> 
+	</mj-section>
+
+
+<!-- Heading + text + link - 2 boxes - bg dark  -->
+	<mj-section padding="32px 30px 32px 30px" background-color="#1A1536">
+		<mj-column width="262px" border="1px solid #000000" padding="32px 24px 32px 24px" background-color="#FCFAF5">
+			<mj-text font-size="20px" font-weight="400" line-height="125%" color="#000000" padding-bottom="16px">
+				Identity Management
+			</mj-text>
+			<mj-text color="#4D4D4D" font-size="14px" font-weight="400" line-height="130%">
+				Solution description lorem ipsum dolor sit amet consectetur. Sed pulvinar odio velit fermentum etiam consectetur pretium fringilla metus.
+			</mj-text>
+      <mj-text font-size="12px" color="#5851DB" font-weight="400" line-height="140%" text-decoration="underline" padding-top="16px">
+        <a href="#" target="_blank" style="color:#5851DB">
+          Learn More
+        </a>
+			</mj-text>
+		</mj-column>
+		<mj-column width="16px">
+		</mj-column>
+				<mj-column width="262px" border="1px solid #000000" padding="32px 24px 32px 24px" background-color="#FCFAF5">
+			<mj-text font-size="20px" font-weight="400" line-height="125%" color="#000000" padding-bottom="16px">
+				Identity Management
+			</mj-text>
+			<mj-text color="#4D4D4D" font-size="14px" font-weight="400" line-height="130%">
+				Solution description lorem ipsum dolor sit amet consectetur. Sed pulvinar odio velit fermentum etiam consectetur pretium fringilla metus.
+			</mj-text>
+      <mj-text font-size="12px" color="#5851DB" font-weight="400" line-height="140%" text-decoration="underline" padding-top="16px">
+        <a href="#" target="_blank" style="color:#5851DB">
+          Learn More
+        </a>
+			</mj-text>
+		</mj-column> 
+	</mj-section>
+
+
+<!-- 2 Publications  -->
+	<mj-section padding="32px 30px 32px 30px" background-color="#FCFAF5">
+		<mj-column width="262px" border="1px solid #000000" padding="32px 24px 32px 24px" background-color="#1A1536">
+     	<mj-text color="#FCFAF5" font-size="12px" font-weight="400" line-height="140%">
+				Freeware
+			</mj-text>
+			<mj-text font-size="18px" font-weight="400" line-height="130%" color="#FCFAF5" padding-top="16px" padding-bottom="80px">
+				Navigating Compliance Complexities with Modern IAM Solutions			</mj-text>
+      <mj-text font-size="12px" color="#FCFAF5" font-weight="400" line-height="140%" padding-top="16px">
+        <a href="#" target="blank" style="color:#FCFAF5; text-decoration:none; border:1px solid #FCFAF5; padding:8px 16px" >
+          Topic Name
+        </a>
+      </mj-text>
+
+		</mj-column>
+		<mj-column width="16px">
+		</mj-column>
+		<mj-column width="262px" border="1px solid #000000" padding="32px 24px 32px 24px" background-color="#1A1536">
+     		<mj-text color="#FCFAF5" font-size="12px" font-weight="400" line-height="140%">
+				Publication
+			</mj-text>
+			<mj-text font-size="18px" font-weight="400" line-height="130%" color="#FCFAF5" padding-top="16px" padding-bottom="80px">
+				Navigating Compliance Complexities with Modern IAM Solutions			</mj-text>
+      		<mj-text font-size="12px" color="#FCFAF5" font-weight="400" line-height="140%" padding-top="16px">
+        	<a href="#" target="blank" style="color:#FCFAF5; text-decoration:none; border:1px solid #FCFAF5; padding:8px 16px" >
+          Topic Name
+        </a>
+      </mj-text>
+		</mj-column>
+	</mj-section>
+
+
+<!-- Events -->
+    <mj-section padding="32px 30px" background-color="#FCFAF5">
+		<mj-column background-color="#1A1536" padding="32px">
+
+			<mj-table css-class="event-meta" cellpadding="0" cellspacing="0" width="65%">
+			<tr>
+				<td class="meta-left" style="font-size:15px; color:#FCFAF5; line-height:140%; white-space:nowrap;">
+					Upcoming Webinar
+				</td>
+				<td class="meta-sep"  style="padding:0 12px; color:#FCFAF5; font-size:15px; line-height:24px;"> | </td>
+				<td class="meta-right" style="font-size:16px; color:#FCFAF5; line-height:24px; padding:0;">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/Vector.svg?version=0"
+					alt="calendar icon" width="12"
+					style="vertical-align:middle; margin-right:6px;" />
+					July 10, 4pm ET
+				</td>
+			</tr>
+			</mj-table>
+
+			<mj-text color="#FCFAF5" font-size="21px" line-height="130%" font-weight="400" padding="16px 0">
+				Navigating Compliance Complexities with Modern IAM Solutions
+			</mj-text>
+
+			<mj-text color="#41F27C" font-size="12px" font-weight="400" line-height="140%" padding="0 0 8px 0">
+				Speakers
+			</mj-text>
+
+		<mj-table css-class="speakers-wrap" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+			<td class="spk" style="vertical-align:top; width:50%;">
+			<table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+				<td style="font-size:16px; color:#FCFAF5; line-height:140%; white-space:nowrap;">
+					Jane Doe
+				</td>
+				</tr>
+				<tr>
+				<td style="font-size:12px; color:#FCFAF5; line-height:140%; white-space:nowrap;">
+					Company Name
+				</td>
+				</tr>
+			</table>
+			</td>
+
+			<td class="spk second" style="vertical-align:top; width:50%;">
+			<table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+				<td style="font-size:16px; color:#FCFAF5; line-height:140%; white-space:nowrap;">
+					Jane Doe
+				</td>
+				</tr>
+				<tr>
+				<td style="font-size:12px; color:#FCFAF5; line-height:140%; white-space:nowrap;">
+					Company Name
+				</td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+		</mj-table>
+
+		<mj-text font-size="12px" color="#FCFAF5" font-weight="400" line-height="140%" padding-top="40px">
+		<a href="#" target="blank"
+			style="color:#FCFAF5; text-decoration:none; border:1px solid #FCFAF5; padding:8px 16px">
+			Topic Name
+		</a>
+		</mj-text>
+
+		</mj-column>
+	</mj-section>
+
+
+<!-- 2 COLS data - bg light  -->
+	<mj-section padding="32px 30px" background-color="#FCFAF5">
+		<mj-column width="50%" padding-right="8px" background-color="#FCFAF5">
+			<mj-text font-size="18px" font-weight="400" line-height="130%" color="#000000" padding-bottom="16px">
+				Identity Management
+			</mj-text>
+			<mj-text color="#4D4D4D" font-size="14px" font-weight="400" line-height="140%">
+				Lorem ipsum dolor sit amet consectetur. Sed pulvinar odio velit fermentum etiam consectetur pretium fringilla metus.
+			</mj-text>
+      <mj-text font-size="12px" color="#5851DB" font-weight="400" line-height="140%" text-decoration="underline" padding-top="24px">
+        <a href="#" target="_blank">
+          Solutions
+        </a>
+			</mj-text>
+		</mj-column>
+
+		<mj-column width="50%" padding-left="8px" background-color="#FCFAF5" css-class="pt24-m">
+			<mj-text font-size="18px" font-weight="400" line-height="130%" color="#000000" padding-bottom="16px">
+				Threat detection
+			</mj-text>
+			<mj-text color="#4D4D4D" font-size="14px" font-weight="400" line-height="140%">
+				Lorem ipsum dolor sit amet consectetur. Sed pulvinar odio velit fermentum etiam consectetur pretium fringilla metus.
+			</mj-text>
+      <mj-text font-size="12px" color="#5851DB" font-weight="400" line-height="140%" text-decoration="underline" padding-top="24px">
+        <a href="#" target="_blank">
+          Solutions
+        </a>
+			</mj-text>
+		</mj-column> 
+	</mj-section>
+
+
+<!-- 1 COL data - bg light  -->
+	<mj-section padding="32px 30px" background-color="#FCFAF5">
+		<mj-column width="100%" background-color="#FCFAF5">
+			<mj-text font-size="18px" font-weight="400" line-height="130%" color="#000000" padding-bottom="16px">
+				Data protection
+			</mj-text>
+			<mj-text color="#4D4D4D" font-size="14px" font-weight="400" line-height="140%">
+				Lorem ipsum dolor sit amet consectetur. Sed pulvinar odio velit fermentum etiam consectetur pretium fringilla metus.
+			</mj-text>
+      <mj-text font-size="12px" color="#5851DB" font-weight="400" line-height="140%" text-decoration="underline" padding="24px 0">
+        <a href="#" target="_blank">
+          Solutions
+        </a>
+			</mj-text>
+
+			<mj-text font-size="18px" font-weight="400" line-height="130%" color="#000000" padding-bottom="16px">
+				Threat detection
+			</mj-text>
+			<mj-text color="#4D4D4D" font-size="14px" font-weight="400" line-height="140%">
+				Lorem ipsum dolor sit amet consectetur. Sed pulvinar odio velit fermentum etiam consectetur pretium fringilla metus.
+			</mj-text>
+      <mj-text font-size="12px" color="#5851DB" font-weight="400" line-height="140%" text-decoration="underline" padding-top="24px">
+        <a href="#" target="_blank">
+          Solutions
+        </a>
+			</mj-text>
+		</mj-column> 
+	</mj-section>
+
+
+<!-- Background grid light -->
+    <mj-section background-color="#FCFAF5">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/grid-a.png?version=0" alt="light grid background"></mj-image>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Background grid dark -->
+    <mj-section background-color="#1A1536">
+    	<mj-column width="100%" vertical-align="middle">
+			<mj-image src="https://lp.netwrix.com/rs/130-MAN-089/images/grid-a-dark.png?version=0" alt="dark grid background"></mj-image>
+      	</mj-column>
+    </mj-section>
+
+
+<!-- Marquee -->
+    <mj-section background-color="#FCFAF5" padding="32px 30px 0">
+		<mj-column width="20%">
+			<mj-image src="http://placeholder.terrahq.com/logo-rectangular.webp" alt="logo" align="center" padding="0 12px"/>
+		</mj-column>
+		<mj-column width="20%">
+			<mj-image src="http://placeholder.terrahq.com/logo-rectangular.webp" alt="logo" align="center" padding="0 12px" css-class="pt8-m"/>
+		</mj-column>
+		<mj-column width="20%">
+			<mj-image src="http://placeholder.terrahq.com/logo-rectangular.webp" alt="logo" align="center" padding="0 12px" css-class="pt8-m"/>
+		</mj-column>
+		<mj-column width="20%">
+			<mj-image src="http://placeholder.terrahq.com/logo-rectangular.webp" alt="logo" align="center" padding="0 12px" css-class="pt8-m"/>
+		</mj-column>
+		<mj-column width="20%">
+			<mj-image src="http://placeholder.terrahq.com/logo-rectangular.webp" alt="logo" align="center" padding="0 12px" css-class="pt8-m"/>
+		</mj-column>
+	</mj-section>
+	<mj-section background-color="#FCFAF5" padding="16px 30px 32px" css-class="pt0-m">
+		<mj-column width="20%">
+			<mj-image src="http://placeholder.terrahq.com/logo-rectangular.webp" alt="logo" align="center" padding="0 12px" css-class="pt8-m"/>
+		</mj-column>
+		<mj-column width="20%">
+			<mj-image src="http://placeholder.terrahq.com/logo-rectangular.webp" alt="logo" align="center" padding="0 12px" css-class="pt8-m"/>
+		</mj-column>
+		<mj-column width="20%">
+			<mj-image src="http://placeholder.terrahq.com/logo-rectangular.webp" alt="logo" align="center" padding="0 12px" css-class="pt8-m"/>
+		</mj-column>
+		<mj-column width="20%">
+			<mj-image src="http://placeholder.terrahq.com/logo-rectangular.webp" alt="logo" align="center" padding="0 12px" css-class="pt8-m"/>
+		</mj-column>
+	</mj-section>
+
+
+<!-- Checks bg light -->
+	<mj-section background-color="#FCFAF5" padding="32px 30px">
+      <mj-column padding="0">
+        <mj-table css-class="checks" width="100%" cellpadding="0" cellspacing="0" align="center">
+          <!-- ROW 1 -->
+          <tr>
+            <td class="pill" style="padding:0 12px;">
+              <table cellpadding="0" cellspacing="0" style="background:#D2D0F5;">
+                <tr>
+                  <td style="padding:8px;">
+                    <table cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td style="padding-right:16px;">
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                               width="24" alt="check" 				style="display:block;border:0;max-width:100%;height:auto;">
+                        </td>
+                        <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
+                          Lower TCO
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+
+            <td class="pill" style="padding:0 12px;">
+              <table cellpadding="0" cellspacing="0" role="presentation" style="background:#D2D0F5;">
+                <tr>
+                  <td style="padding:8px;">
+                    <table cellpadding="0" cellspacing="0" role="presentation">
+                      <tr>
+                        <td style="padding-right:16px;">
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                               width="24" alt="check" style="display:block;border:0;max-width:100%;height:auto;">
+                        </td>
+                        <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
+                          Fast implementation
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+
+            <td class="pill" style="padding:0 12px;">
+              <table cellpadding="0" cellspacing="0" role="presentation" style="background:#D2D0F5;">
+                <tr>
+                  <td style="padding:8px;">
+                    <table cellpadding="0" cellspacing="0" role="presentation">
+                      <tr>
+                        <td style="padding-right:16px;">
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                               width="24" alt="check" style="display:block;border:0;max-width:100%;height:auto;">
+                        </td>
+                        <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
+                          Lower TCO
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ROW 2 -->
+          <tr>
+            <td class="pill" align="center" colspan="3" style="padding:24px 0 0 0;">
+              <table cellpadding="0" cellspacing="0" role="presentation" style="display:inline-block; background:#D2D0F5;">
+                <tr>
+                  <td style="padding:8px;">
+                    <table role="presentation" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td style="padding-right:16px;">
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                               width="24" alt="check" style="display:block;border:0;max-width:100%;height:auto;">
+                        </td>
+                        <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
+                          Reduced complexity
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+              <span class="hgap" style="display:inline-block; width:20px; line-height:0;">&nbsp;</span>
+
+              <table cellpadding="0" cellspacing="0" role="presentation" style="display:inline-block; background:#D2D0F5;">
+                <tr>
+                  <td style="padding:8px;">
+                    <table role="presentation" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td style="padding-right:16px;">
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                               width="24" alt="check" style="display:block;border:0;max-width:100%;height:auto;">
+                        </td>
+                        <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
+                          Expert support
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+
+<!-- Checks bg dark -->
+	<mj-section background-color="#1A1536" padding="32px 30px">
+      <mj-column padding="0">
+        <mj-table css-class="checks" width="100%" cellpadding="0" cellspacing="0" align="center">
+          <!-- ROW 1 -->
+          <tr>
+            <td class="pill" style="padding:0 12px;">
+              <table cellpadding="0" cellspacing="0" style="background:#D2D0F5;">
+                <tr>
+                  <td style="padding:8px;">
+                    <table cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td style="padding-right:16px;">
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                               width="24" alt="check" 				style="display:block;border:0;max-width:100%;height:auto;">
+                        </td>
+                        <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
+                          Lower TCO
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+
+            <td class="pill" style="padding:0 12px;">
+              <table cellpadding="0" cellspacing="0" role="presentation" style="background:#D2D0F5;">
+                <tr>
+                  <td style="padding:8px;">
+                    <table cellpadding="0" cellspacing="0" role="presentation">
+                      <tr>
+                        <td style="padding-right:16px;">
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                               width="24" alt="check" style="display:block;border:0;max-width:100%;height:auto;">
+                        </td>
+                        <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
+                          Fast implementation
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+
+            <td class="pill" style="padding:0 12px;">
+              <table cellpadding="0" cellspacing="0" role="presentation" style="background:#D2D0F5;">
+                <tr>
+                  <td style="padding:8px;">
+                    <table cellpadding="0" cellspacing="0" role="presentation">
+                      <tr>
+                        <td style="padding-right:16px;">
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                               width="24" alt="check" style="display:block;border:0;max-width:100%;height:auto;">
+                        </td>
+                        <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
+                          Lower TCO
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ROW 2 -->
+          <tr>
+            <td class="pill" align="center" colspan="3" style="padding:24px 0 0 0;">
+              <table cellpadding="0" cellspacing="0" role="presentation" style="display:inline-block; background:#D2D0F5;">
+                <tr>
+                  <td style="padding:8px;">
+                    <table role="presentation" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td style="padding-right:16px;">
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                               width="24" alt="check" style="display:block;border:0;max-width:100%;height:auto;">
+                        </td>
+                        <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
+                          Reduced complexity
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+              <span class="hgap" style="display:inline-block; width:20px; line-height:0;">&nbsp;</span>
+
+              <table cellpadding="0" cellspacing="0" role="presentation" style="display:inline-block; background:#D2D0F5;">
+                <tr>
+                  <td style="padding:8px;">
+                    <table role="presentation" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td style="padding-right:16px;">
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                               width="24" alt="check" style="display:block;border:0;max-width:100%;height:auto;">
+                        </td>
+                        <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
+                          Expert support
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+
+<!-- CTA subtitle heading + btn -->
+	<mj-section background-color="#FCFAF5" padding="56px 62px" background-url="https://lp.netwrix.com/rs/130-MAN-089/images/bg-gradient-light.png?version=0" background-repeat="no-repeat" background-size="cover">
+		<mj-column width="100%" vertical-align="middle">
+			<mj-text font-size="12px" color="#5851DB" font-weight="400" line-height="140%" align="center">
+				Resource center
+			</mj-text>
+			<mj-text padding-top="8px" font-size="28px" font-weight="400" line-height="120%" color="#000000" align="center">
+				This is the heading for the resource center CTA
+      </mj-text>
+    	<mj-button
+				background-color="#5851DB"
+				color="#FCFAF5"
+				align="center"
+				href="#"
+        padding-top="24px">
+			Resource center
+			</mj-button>
+    </mj-column>
+	</mj-section>
+
+
+<!-- CTA  green - heading + txt + btn -->
+	<mj-section background-color="#1A1536" padding="56px 62px" background-url="https://lp.netwrix.com/rs/130-MAN-089/images/Frame 2608596.jpg?version=0" background-repeat="no-repeat" background-size="cover">
+		<mj-column width="100%" vertical-align="middle">
+			<mj-text padding-bottom="16px" font-size="32px" font-weight="400" line-height="110%" color="#FCFAF5" align="center">
+				This is a CTA lorem ipsum dolor sit amet
+      </mj-text>
+      <mj-text font-size="14px" color="#FCFAF5" font-weight="400" line-height="140%" align="center">
+				This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. 
+			</mj-text>
+    	<mj-button
+				background-color="#5851DB"
+				color="#FCFAF5"
+				align="center"
+				href="#"
+        padding-top="16px">
+			Button
+			</mj-button>
+    </mj-column>
+	</mj-section>
+    
+    
+<!-- CTA green - heading + btn -->
+	<mj-section background-color="#1A1536" padding="56px 62px" background-url="https://lp.netwrix.com/rs/130-MAN-089/images/Frame 2608596.jpg?version=0" background-repeat="no-repeat" background-size="cover">
+		<mj-column width="100%" vertical-align="middle">
+			<mj-text font-size="32px" font-weight="400" line-height="110%" color="#FCFAF5" align="center">
+				This is a CTA lorem ipsum dolor sit amet
+      </mj-text>
+    	<mj-button
+				background-color="#5851DB"
+				color="#FCFAF5"
+				align="center"
+				href="#"
+        padding-top="16px">
+			Button
+			</mj-button>
+    </mj-column>
+	</mj-section>
+
+
+<!-- CTA  pink - heading + txt + btn -->
+	<mj-section background-color="#1A1536" padding="56px 62px" background-url="https://lp.netwrix.com/rs/130-MAN-089/images/Frame 11.jpg?version=0" background-repeat="no-repeat" background-size="cover">
+		<mj-column width="100%" vertical-align="middle">
+			<mj-text padding-bottom="16px" font-size="32px" font-weight="400" line-height="110%" color="#FCFAF5" align="center">
+				This is a CTA lorem ipsum dolor sit amet
+      </mj-text>
+      <mj-text font-size="14px" color="#FCFAF5" font-weight="400" line-height="140%" align="center">
+				This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. 
+			</mj-text>
+    	<mj-button
+				background-color="#5851DB"
+				color="#FCFAF5"
+				align="center"
+				href="#"
+        padding-top="16px">
+			Button
+			</mj-button>
+    </mj-column>
+	</mj-section>
+    
+    
+<!-- CTA pink - heading + btn -->
+	<mj-section background-color="#1A1536" padding="56px 62px" background-url="https://lp.netwrix.com/rs/130-MAN-089/images/Frame 11.jpg?version=0" background-repeat="no-repeat" background-size="cover">
+		<mj-column width="100%" vertical-align="middle">
+			<mj-text font-size="32px" font-weight="400" line-height="110%" color="#FCFAF5" align="center">
+				This is a CTA lorem ipsum dolor sit amet
+      </mj-text>
+    	<mj-button
+				background-color="#5851DB"
+				color="#FCFAF5"
+				align="center"
+				href="#"
+        padding-top="16px">
+			Button
+			</mj-button>
+    </mj-column>
+	</mj-section>
+
+
+<!-- CTA yellow - heading + txt + btn -->
+	<mj-section background-color="#1A1536" padding="56px 62px" background-url="https://lp.netwrix.com/rs/130-MAN-089/images/Frame 5174.jpg?version=0" background-repeat="no-repeat" background-size="cover">
+		<mj-column width="100%" vertical-align="middle">
+			<mj-text padding-bottom="16px" font-size="32px" font-weight="400" line-height="110%" color="#FCFAF5" align="center">
+				This is a CTA lorem ipsum dolor sit amet
+      </mj-text>
+      <mj-text font-size="14px" color="#FCFAF5" font-weight="400" line-height="140%" align="center">
+				This Lorem ipsum dolor sit amet consectetur. Posuere laoreet elit ut facilisis bibendum semper. Nisi diam bibendum pharetra at. 
+			</mj-text>
+    	<mj-button
+				background-color="#5851DB"
+				color="#FCFAF5"
+				align="center"
+				href="#"
+        padding-top="16px">
+			Button
+			</mj-button>
+    </mj-column>
+	</mj-section>
+    
+    
+<!-- CTA yellow - heading + btn -->
+	<mj-section background-color="#1A1536" padding="56px 62px" background-url="https://lp.netwrix.com/rs/130-MAN-089/images/Frame 5174.jpg?version=0" background-repeat="no-repeat" background-size="cover">
+		<mj-column width="100%" vertical-align="middle">
+			<mj-text font-size="32px" font-weight="400" line-height="110%" color="#FCFAF5" align="center">
+				This is a CTA lorem ipsum dolor sit amet
+      </mj-text>
+    	<mj-button
+				background-color="#5851DB"
+				color="#FCFAF5"
+				align="center"
+				href="#"
+        padding-top="16px">
+			Button
+			</mj-button>
+    </mj-column>
+	</mj-section>
+
+
+<!-- Callout -->
+	<mj-section background-color="#1A1536" padding="32px 30px" background-url="https://lp.netwrix.com/rs/130-MAN-089/images/b--card-l.jpg?version=0" background-repeat="no-repeat" background-size="cover">
+		<mj-column width="100%" vertical-align="middle">
+			<mj-text padding-bottom="16px" font-size="22px" font-weight="400" line-height="125%" color="#FCFAF5">
+				This is a call out lorem ipsum dolor sit
+      		</mj-text>
+      		<mj-text font-size="14px" color="#FCFAF5" font-weight="400" line-height="140%">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+			</mj-text>
+    		<mj-button
+				background-color="#41F27C"
+				color="#000000"
+        		align="left"
+				href="#"
+        		padding-top="16px">
+					Button
+			</mj-button>
+    	</mj-column>
+	</mj-section>
+
+
+<!-- Links -->
+	<mj-section background-color="#FCFAF5" padding="56px 30px 0 30px" border-top="1px solid #000000">
+		<mj-column width="100%" vertical-align="middle">
+			<mj-text font-size="16px" font-weight="400" line-height="140%" color="#000000" padding-bottom="8px">
+					Read Top Articles
+			</mj-text>
+     	</mj-column>
+    </mj-section>
+
+	<mj-section background-color="#FCFAF5" padding="0 30px">
+	<mj-column width="100%">
+		<mj-table width="100%" cellpadding="0" cellspacing="0">
+		<tr>
+			<!-- Texto -->
+			<td style="padding:10px 16px 10px 0; border-bottom:1px solid #000000;
+					font-family:Arial, sans-serif; font-size:12px; line-height:140%; color:#000000;">
+			<a href="#" target="_blank"
+				style="color:#000000; text-decoration:none; display:block;">
+				Cisco Commands Cheat Sheet for Quick Device Configuration
+			</a>
+			</td>
+			<!-- Flecha -->
+			<td align="right" width="24" style="padding:10px 0; border-bottom:1px solid #000000;">
+			<a href="#" target="_blank" style="display:inline-block;">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow v2.svg?version=0"
+					width="12" height="12" alt="→" style="display:block; border:0;">
+			</a>
+			</td>
+		</tr>
+		</mj-table>
+	</mj-column>
+	</mj-section>
+
+		<mj-section background-color="#FCFAF5" padding="0 30px">
+	<mj-column width="100%">
+		<mj-table width="100%" cellpadding="0" cellspacing="0">
+		<tr>
+			<!-- Texto -->
+			<td style="padding:10px 16px 10px 0; border-bottom:1px solid #000000;
+					font-family:Arial, sans-serif; font-size:12px; line-height:140%; color:#000000;">
+			<a href="#" target="_blank"
+				style="color:#000000; text-decoration:none; display:block;">
+				CISSP Exam Study Guide
+			</a>
+			</td>
+			<!-- Flecha -->
+			<td align="right" width="24" style="padding:10px 0; border-bottom:1px solid #000000;">
+			<a href="#" target="_blank" style="display:inline-block;">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow v2.svg?version=0"
+					width="12" height="12" alt="→" style="display:block; border:0;">
+			</a>
+			</td>
+		</tr>
+		</mj-table>
+	</mj-column>
+	</mj-section>
+		
+		<mj-section background-color="#FCFAF5" padding="0 30px">
+	<mj-column width="100%">
+		<mj-table width="100%" cellpadding="0" cellspacing="0">
+		<tr>
+			<!-- Texto -->
+			<td style="padding:10px 16px 10px 0; border-bottom:1px solid #000000;
+					font-family:Arial, sans-serif; font-size:12px; line-height:140%; color:#000000;">
+			<a href="#" target="_blank"
+				style="color:#000000; text-decoration:none; display:block;">
+				Common Ports for TCP & UDP Network Communication
+			</a>
+			</td>
+			<!-- Flecha -->
+			<td align="right" width="24" style="padding:10px 0; border-bottom:1px solid #000000;">
+			<a href="#" target="_blank" style="display:inline-block;">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow v2.svg?version=0"
+					width="12" height="12" alt="→" style="display:block; border:0;">
+			</a>
+			</td>
+		</tr>
+		</mj-table>
+	</mj-column>
+	</mj-section>
+
+		<mj-section background-color="#FCFAF5" padding="0 30px">
+	<mj-column width="100%">
+		<mj-table width="100%" cellpadding="0" cellspacing="0">
+		<tr>
+			<!-- Texto -->
+			<td style="padding:10px 16px 10px 0; border-bottom:1px solid #000000;
+					font-family:Arial, sans-serif; font-size:12px; line-height:140%; color:#000000;">
+			<a href="#" target="_blank"
+				style="color:#000000; text-decoration:none; display:block;">
+					How to Install Active Directory Users and Computers (ADUC)          </a>
+			</td>
+			<!-- Flecha -->
+			<td align="right" width="24" style="padding:10px 0; border-bottom:1px solid #000000;">
+			<a href="#" target="_blank" style="display:inline-block;">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow v2.svg?version=0"
+					width="12" height="12" alt="→" style="display:block; border:0;">
+			</a>
+			</td>
+		</tr>
+		</mj-table>
+	</mj-column>
+	</mj-section>
+
+
+<!-- Footer -->
+	<mj-section background-color="#FCFAF5" padding="24px 30px 0 30px" border-top="1px solid #000000">
+	<mj-column width="60%">
+		<mj-table align="center" cellpadding="0" cellspacing="0">
+		<tr>
+			<td style="padding:0 6px;">
+			<a href="#" target="_blank">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/icon-linkedin.png?version=0" width="33" alt="LinkedIn" border="0" style="display:block;">
+			</a>
+			</td>
+			<td style="padding:0 6px;">
+			<a href="#" target="_blank">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/icon-x.png?version=0" width="33" alt="X" border="0" style="display:block;">
+			</a>
+			</td>
+			<td style="padding:0 6px;">
+			<a href="#" target="_blank">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/icon-fb.png?version=0" width="33" alt="Facebook" border="0" style="display:block;">
+			</a>
+			</td>
+			<td style="padding:0 6px;">
+			<a href="#" target="_blank">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/icon-yt.png?version=0" width="33" alt="YouTube" border="0" style="display:block;">
+			</a>
+			</td>
+			<td style="padding:0 6px;">
+			<a href="#" target="_blank">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/icon-ig.png?version=0" width="33" alt="Instagram" border="0" style="display:block;">
+			</a>
+			</td>
+			<td style="padding:0 6px;">
+			<a href="#" target="_blank">
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/icon-spiceworks.png?version=0" width="33" alt="Spiceworks" border="0" style="display:block;">
+			</a>
+			</td>
+		</tr>
+		</mj-table>
+	</mj-column>
+	</mj-section>
+
+	<mj-section background-color="#FCFAF5" padding="24px 30px">
+	<mj-column width="100%">
+		<mj-text font-size="10px" color="#000000" font-weight="400" line-height="130%" align="center" padding="0">
+		Corporate Headquarters: 6160 Warren Parkway, Suite 100, Frisco, TX, US 75034<br/>
+		© 2025 Netwrix Corporation. All rights reserved.
+		</mj-text>
+
+		<mj-text font-size="10px" color="#000000" font-weight="400" line-height="140%" align="center" padding="8px 0 0 0">
+		<a href="#" target="_blank" style="color:#000000; text-decoration:underline;">
+			Manage your email preferences
+		</a>
+		</mj-text>
+	</mj-column>
+	</mj-section>
+
+
+  </mj-body>
+</mjml>
