@@ -1182,12 +1182,10 @@
 
 
 <!-- Data row -->
-	<!-- Data row -->
 	<mj-section padding="32px 30px 0px 30px" background-color="#FCFAF5">
   	<mj-column padding="0">
     <mj-table css-class="list3" width="100%" cellpadding="0" cellspacing="0">
 
-      <!-- ===== ITEM ===== -->
       <tr>
         <td class="col left" valign="middle" width="50%" style="padding:0px 4px;">
           <a href="#" target="_blank" style="display:block; text-decoration:none; color:#000;">
@@ -1204,7 +1202,6 @@
           </a>
         </td>
 
-        <!-- Texto (enlace) + flecha móvil -->
         <td class="col copy" valign="middle" width="50%" style="padding:16px 4px;">
           <a href="#" target="_blank" style="display:block; text-decoration:none; color:#4D4D4D;">
             <div style="font-family:Arial, sans-serif; font-size:14px; line-height:140%;">
@@ -1213,10 +1210,9 @@
           </a>
         </td>
 
-        <!-- Flecha (solo desktop) -->
         <td class="col arrow" valign="middle" align="right" style="padding:16px 0;">
           <a href="https://ejemplo.com" target="_blank" style="text-decoration:none;">
-            <img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow%20v2.svg?version=0"
+            <img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow.png?version=1"
                  width="12" height="12" alt="→" style="display:block; border:0;padding-left:8px">
           </a>
         </td>
@@ -1261,7 +1257,7 @@
 			</td>
 			<td class="col arrow" valign="middle" align="right" style="padding:16px 0;">
 			<a href="#" target="_blank" style="text-decoration:none;">
-				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow%20v2.svg?version=0"
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow.png?version=1"
 					width="12" height="12" alt="→" style="display:block; border:0;padding-left:8px">
 			</a>
 			</td>
@@ -1307,7 +1303,7 @@
 			</td>
 			<td class="col arrow" valign="middle" align="right" style="padding:16px 0;">
 			<a href="#" target="_blank" style="text-decoration:none;">
-				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow%20v2.svg?version=0"
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow.png?version=1"
 					width="12" height="12" alt="→" style="display:block; border:0;padding-left:8px">
 			</a>
 			</td>
@@ -1351,7 +1347,7 @@
 			</td>
 			<td class="col arrow" valign="middle" align="right" style="padding:16px 0;">
 			<a href="#" target="_blank" style="text-decoration:none;">
-				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow%20v2.svg?version=0"
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow.png?version=1"
 					width="12" height="12" alt="→" style="display:block; border:0;padding-left:8px">
 			</a>
 			</td>
@@ -1395,7 +1391,7 @@
 			</td>
 			<td class="col arrow" valign="middle" align="right" style="padding:16px 0;">
 			<a href="#" target="_blank" style="text-decoration:none;">
-				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow%20v2.svg?version=0"
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow.png?version=1"
 					width="12" height="12" alt="→" style="display:block; border:0;padding-left:8px">
 			</a>
 			</td>
@@ -1440,7 +1436,7 @@
 			</td>
 			<td class="col arrow" valign="middle" align="right" style="padding:16px 0;">
 			<a href="#" target="_blank" style="text-decoration:none;">
-				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow%20v2.svg?version=0"
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow.png?version=1"
 					width="12" height="12" alt="→" style="display:block; border:0;padding-left:8px">
 			</a>
 			</td>
@@ -1480,7 +1476,6 @@
                   </td>
                 </tr>
               </table>
-              <!-- /Contenido tarjeta -->
             </td>
             <!--[if mso]></td><![endif]-->
           </tr>
@@ -1755,7 +1750,6 @@
 
 
 <!-- Stats - bg light -->
-    <!-- heading -->
 	<mj-section background-color="#FCFAF5" padding="32px 30px 16px 30px">
 		<mj-column width="100%" vertical-align="middle">
 			<mj-text font-size="12px" color="#5851DB" font-weight="400" line-height="140%">
@@ -1767,7 +1761,6 @@
 		</mj-column>
 	</mj-section>
 
-	<!-- stats in 1 col -->
 	<mj-section background-color="#FCFAF5" padding="0px 30px 0px 30px">
 		<mj-column width="100%" border-bottom="1px solid #000000" padding="24px">
 			<mj-text font-size="40px" font-weight="400" line-height="120%" color="#5851DB" padding-bottom="8px">
@@ -1779,7 +1772,6 @@
 		</mj-column>
 	</mj-section>
 
-	<!-- stats in 2 col -->
 	<mj-section background-color="#FCFAF5" padding="0px 30px 32px 30px">
 		<mj-column width="262px" border-bottom="1px solid #000000" padding="40px 24px 24px 24px">
 			<mj-text font-size="40px" font-weight="400" line-height="120%" color="#5851DB" padding-bottom="8px">
@@ -1904,7 +1896,6 @@
 
 
 <!-- Stats - bg dark -->
-    <!-- heading -->
 	<mj-section background-color="#1A1536" padding="32px 30px 16px 30px">
 		<mj-column width="100%" vertical-align="middle">
 			<mj-text font-size="12px" color="#41F27C" font-weight="400" line-height="140%">
@@ -1916,7 +1907,6 @@
 		</mj-column>
 	</mj-section>
 
-	<!-- stats in 2 col -->
 	<mj-section padding="0px 30px 32px 30px" background-color="#1A1536">
 		<mj-column width="262px" border-bottom="1px solid #FCFAF5" padding="40px 24px 24px 24px">
 			<mj-text font-size="40px" font-weight="400" line-height="120%" color="#41F27C" padding-bottom="8px">
@@ -2049,7 +2039,7 @@
 				</td>
 				<td class="meta-sep"  style="padding:0 12px; color:#FCFAF5; font-size:15px; line-height:24px;"> | </td>
 				<td class="meta-right" style="font-size:16px; color:#FCFAF5; line-height:24px; padding:0;">
-				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/Vector.svg?version=0"
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/calendar.png?version=2"
 					alt="calendar icon" width="12"
 					style="vertical-align:middle; margin-right:6px;" />
 					July 10, 4pm ET
@@ -2235,7 +2225,7 @@
                     <table cellpadding="0" cellspacing="0">
                       <tr>
                         <td style="padding-right:16px;">
-                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/check.png?version=1"
                                width="24" alt="check" 				style="display:block;border:0;max-width:100%;height:auto;">
                         </td>
                         <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
@@ -2255,7 +2245,7 @@
                     <table cellpadding="0" cellspacing="0" role="presentation">
                       <tr>
                         <td style="padding-right:16px;">
-                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/check.png?version=1"
                                width="24" alt="check" style="display:block;border:0;max-width:100%;height:auto;">
                         </td>
                         <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
@@ -2275,7 +2265,7 @@
                     <table cellpadding="0" cellspacing="0" role="presentation">
                       <tr>
                         <td style="padding-right:16px;">
-                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/check.png?version=1"
                                width="24" alt="check" style="display:block;border:0;max-width:100%;height:auto;">
                         </td>
                         <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
@@ -2298,7 +2288,7 @@
                     <table role="presentation" cellpadding="0" cellspacing="0">
                       <tr>
                         <td style="padding-right:16px;">
-                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/check.png?version=1"
                                width="24" alt="check" style="display:block;border:0;max-width:100%;height:auto;">
                         </td>
                         <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
@@ -2318,7 +2308,7 @@
                     <table role="presentation" cellpadding="0" cellspacing="0">
                       <tr>
                         <td style="padding-right:16px;">
-                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/check.png?version=1"
                                width="24" alt="check" style="display:block;border:0;max-width:100%;height:auto;">
                         </td>
                         <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
@@ -2350,7 +2340,7 @@
                     <table cellpadding="0" cellspacing="0">
                       <tr>
                         <td style="padding-right:16px;">
-                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/check.png?version=1"
                                width="24" alt="check" 				style="display:block;border:0;max-width:100%;height:auto;">
                         </td>
                         <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
@@ -2370,7 +2360,7 @@
                     <table cellpadding="0" cellspacing="0" role="presentation">
                       <tr>
                         <td style="padding-right:16px;">
-                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/check.png?version=1"
                                width="24" alt="check" style="display:block;border:0;max-width:100%;height:auto;">
                         </td>
                         <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
@@ -2390,7 +2380,7 @@
                     <table cellpadding="0" cellspacing="0" role="presentation">
                       <tr>
                         <td style="padding-right:16px;">
-                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/check.png?version=1"
                                width="24" alt="check" style="display:block;border:0;max-width:100%;height:auto;">
                         </td>
                         <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
@@ -2413,7 +2403,7 @@
                     <table role="presentation" cellpadding="0" cellspacing="0">
                       <tr>
                         <td style="padding-right:16px;">
-                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/check.png?version=1"
                                width="24" alt="check" style="display:block;border:0;max-width:100%;height:auto;">
                         </td>
                         <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
@@ -2433,7 +2423,7 @@
                     <table role="presentation" cellpadding="0" cellspacing="0">
                       <tr>
                         <td style="padding-right:16px;">
-                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/Group 10.svg?version=0"
+                          <img src="https://lp.netwrix.com/rs/130-MAN-089/images/check.png?version=1"
                                width="24" alt="check" style="display:block;border:0;max-width:100%;height:auto;">
                         </td>
                         <td class="text" style="font-family:Arial, sans-serif; font-size:14px; font-weight:400; color:#000000; white-space:nowrap;">
@@ -2624,7 +2614,6 @@
 	<mj-column width="100%">
 		<mj-table width="100%" cellpadding="0" cellspacing="0">
 		<tr>
-			<!-- Texto -->
 			<td style="padding:10px 16px 10px 0; border-bottom:1px solid #000000;
 					font-family:Arial, sans-serif; font-size:12px; line-height:140%; color:#000000;">
 			<a href="#" target="_blank"
@@ -2632,10 +2621,9 @@
 				Cisco Commands Cheat Sheet for Quick Device Configuration
 			</a>
 			</td>
-			<!-- Flecha -->
 			<td align="right" width="24" style="padding:10px 0; border-bottom:1px solid #000000;">
 			<a href="#" target="_blank" style="display:inline-block;">
-				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow v2.svg?version=0"
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow.png?version=1"
 					width="12" height="12" alt="→" style="display:block; border:0;">
 			</a>
 			</td>
@@ -2648,7 +2636,6 @@
 	<mj-column width="100%">
 		<mj-table width="100%" cellpadding="0" cellspacing="0">
 		<tr>
-			<!-- Texto -->
 			<td style="padding:10px 16px 10px 0; border-bottom:1px solid #000000;
 					font-family:Arial, sans-serif; font-size:12px; line-height:140%; color:#000000;">
 			<a href="#" target="_blank"
@@ -2656,10 +2643,9 @@
 				CISSP Exam Study Guide
 			</a>
 			</td>
-			<!-- Flecha -->
 			<td align="right" width="24" style="padding:10px 0; border-bottom:1px solid #000000;">
 			<a href="#" target="_blank" style="display:inline-block;">
-				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow v2.svg?version=0"
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow.png?version=1"
 					width="12" height="12" alt="→" style="display:block; border:0;">
 			</a>
 			</td>
@@ -2672,7 +2658,6 @@
 	<mj-column width="100%">
 		<mj-table width="100%" cellpadding="0" cellspacing="0">
 		<tr>
-			<!-- Texto -->
 			<td style="padding:10px 16px 10px 0; border-bottom:1px solid #000000;
 					font-family:Arial, sans-serif; font-size:12px; line-height:140%; color:#000000;">
 			<a href="#" target="_blank"
@@ -2680,10 +2665,9 @@
 				Common Ports for TCP & UDP Network Communication
 			</a>
 			</td>
-			<!-- Flecha -->
 			<td align="right" width="24" style="padding:10px 0; border-bottom:1px solid #000000;">
 			<a href="#" target="_blank" style="display:inline-block;">
-				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow v2.svg?version=0"
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow.png?version=1"
 					width="12" height="12" alt="→" style="display:block; border:0;">
 			</a>
 			</td>
@@ -2696,17 +2680,15 @@
 	<mj-column width="100%">
 		<mj-table width="100%" cellpadding="0" cellspacing="0" padding-bottom="56px">
 		<tr>
-			<!-- Texto -->
 			<td style="padding:10px 16px 10px 0; border-bottom:1px solid #000000;
 					font-family:Arial, sans-serif; font-size:12px; line-height:140%; color:#000000;">
 			<a href="#" target="_blank"
 				style="color:#000000; text-decoration:none; display:block;">
 					How to Install Active Directory Users and Computers (ADUC)          </a>
 			</td>
-			<!-- Flecha -->
 			<td align="right" width="24" style="padding:10px 0; border-bottom:1px solid #000000;">
 			<a href="#" target="_blank" style="display:inline-block;">
-				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow v2.svg?version=0"
+				<img src="https://lp.netwrix.com/rs/130-MAN-089/images/arrow.png?version=1"
 					width="12" height="12" alt="→" style="display:block; border:0;">
 			</a>
 			</td>
